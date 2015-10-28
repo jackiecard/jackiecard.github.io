@@ -265,6 +265,7 @@ a:active {
 .modal {
   display: none;
   width: 90%;
+  max-width: 400px;
   background: #fff;
   padding: 15px 30px;
   -webkit-border-radius: 8px;
@@ -277,12 +278,12 @@ a:active {
   -o-box-shadow: 0 0 10px #000;
   -ms-box-shadow: 0 0 10px #000;
   box-shadow: 0 0 10px #000; }
-  /* line 291, /Users/jackie/Resume/sass/application.scss */
+  /* line 292, /Users/jackie/Resume/sass/application.scss */
   .modal textarea {
     max-width: 90%;
     min-height: 100px; }
 
-/* line 297, /Users/jackie/Resume/sass/application.scss */
+/* line 298, /Users/jackie/Resume/sass/application.scss */
 .modal a.close-modal {
   position: absolute;
   top: -12.5px;
@@ -293,7 +294,7 @@ a:active {
   text-indent: -9999px;
   background: url("../img/close.png") no-repeat 0 0; }
 
-/* line 308, /Users/jackie/Resume/sass/application.scss */
+/* line 309, /Users/jackie/Resume/sass/application.scss */
 .modal-spinner {
   display: none;
   width: 64px;
@@ -310,7 +311,7 @@ a:active {
   -ms-border-radius: 8px;
   border-radius: 8px; }
 
-/* line 323, /Users/jackie/Resume/sass/application.scss */
+/* line 324, /Users/jackie/Resume/sass/application.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
   border: 2px solid #FF5964;
@@ -319,7 +320,7 @@ input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:ac
   width: 90%;
   border-radius: 8px; }
 
-/* line 331, /Users/jackie/Resume/sass/application.scss */
+/* line 332, /Users/jackie/Resume/sass/application.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
   border: 2px solid #2D3142;
@@ -328,7 +329,7 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   width: 90%;
   border-radius: 8px; }
 
-/* line 339, /Users/jackie/Resume/sass/application.scss */
+/* line 340, /Users/jackie/Resume/sass/application.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
 button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
@@ -340,7 +341,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   width: 90%;
   border-radius: 8px; }
 
-/* line 351, /Users/jackie/Resume/sass/application.scss */
+/* line 352, /Users/jackie/Resume/sass/application.scss */
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
   border: 2px solid #FF5964; }
 
