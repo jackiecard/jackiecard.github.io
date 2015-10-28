@@ -1,3 +1,4 @@
+@CHARSET "UTF-8";
 @font-face {
   font-family: 'primary-serif';
   src: url("../fonts/bitstream-vera-serif/Bitstream Vera Serif Roman.ttf"); }
@@ -24,21 +25,21 @@ html {
 *::before {
   box-sizing: inherit; }
 
-/* line 33, /Users/jackie/Resume/sass/application.scss */
+/* line 35, /Users/jackie/Resume/sass/application.scss */
 html, body {
   height: 100%; }
 
-/* line 37, /Users/jackie/Resume/sass/application.scss */
+/* line 39, /Users/jackie/Resume/sass/application.scss */
 body {
   font-family: 'primary-serif';
   color: #333;
   margin-top: 0; }
 
-/* line 43, /Users/jackie/Resume/sass/application.scss */
+/* line 45, /Users/jackie/Resume/sass/application.scss */
 article {
   padding-top: 10px; }
   @media screen and (min-width: 769px) {
-    /* line 43, /Users/jackie/Resume/sass/application.scss */
+    /* line 45, /Users/jackie/Resume/sass/application.scss */
     article {
       height: 100%;
       width: 70%;
@@ -46,26 +47,30 @@ article {
       margin-top: 0;
       position: relative; } }
   @media screen and (max-width: 768px) {
-    /* line 43, /Users/jackie/Resume/sass/application.scss */
+    /* line 45, /Users/jackie/Resume/sass/application.scss */
     article {
       text-align: center;
       background: #2D3142; } }
-  /* line 60, /Users/jackie/Resume/sass/application.scss */
+  /* line 62, /Users/jackie/Resume/sass/application.scss */
   article .title {
     font-family: 'secundary-sans';
     font-size: 18px;
     margin: 20px;
     text-transform: uppercase;
     padding: 0px; }
-    /* line 67, /Users/jackie/Resume/sass/application.scss */
+    /* line 69, /Users/jackie/Resume/sass/application.scss */
+    article .title .desc {
+      display: inline-block;
+      margin: 0; }
+    /* line 74, /Users/jackie/Resume/sass/application.scss */
     article .title i {
       margin-right: 5px;
       padding-top: 0; }
     @media screen and (max-width: 768px) {
-      /* line 60, /Users/jackie/Resume/sass/application.scss */
+      /* line 62, /Users/jackie/Resume/sass/application.scss */
       article .title {
         text-align: center; }
-        /* line 75, /Users/jackie/Resume/sass/application.scss */
+        /* line 82, /Users/jackie/Resume/sass/application.scss */
         article .title i {
           display: inline-block;
           text-align: center;
@@ -73,60 +78,64 @@ article {
           padding: 5px;
           font-size: 30px;
           color: #fff; }
-        /* line 83, /Users/jackie/Resume/sass/application.scss */
+        /* line 90, /Users/jackie/Resume/sass/application.scss */
         article .title .desc {
           font-size: 30px;
           color: #fff; } }
     @media screen and (max-width: 480px) {
-      /* line 90, /Users/jackie/Resume/sass/application.scss */
+      /* line 97, /Users/jackie/Resume/sass/application.scss */
       article .title i {
         font-size: 25px; }
-      /* line 93, /Users/jackie/Resume/sass/application.scss */
+      /* line 100, /Users/jackie/Resume/sass/application.scss */
       article .title .desc {
         font-size: 25px; } }
     @media screen and (min-width: 769px) {
-      /* line 60, /Users/jackie/Resume/sass/application.scss */
+      /* line 62, /Users/jackie/Resume/sass/application.scss */
       article .title {
         margin: 0;
         width: auto;
         padding: 10px 20px;
-        background: #FF5964; } }
+        background: #FF5964; }
+        /* line 111, /Users/jackie/Resume/sass/application.scss */
+        article .title .desc {
+          margin-top: -10px;
+          font-size: 22px; } }
 
-/* line 107, /Users/jackie/Resume/sass/application.scss */
+/* line 119, /Users/jackie/Resume/sass/application.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'secundary-sans'; }
 
-/* line 110, /Users/jackie/Resume/sass/application.scss */
+/* line 122, /Users/jackie/Resume/sass/application.scss */
 header {
   background: #FF5964;
-  padding: 20px; }
+  padding: 30px; }
   @media screen and (max-width: 768px) {
-    /* line 110, /Users/jackie/Resume/sass/application.scss */
+    /* line 122, /Users/jackie/Resume/sass/application.scss */
     header {
       box-shadow: 1px 1px 1px rgba(168, 168, 168, 0.5); } }
   @media screen and (min-width: 769px) {
-    /* line 110, /Users/jackie/Resume/sass/application.scss */
+    /* line 122, /Users/jackie/Resume/sass/application.scss */
     header {
       height: 100%;
       width: 30%;
       margin-top: 0;
       position: fixed; } }
 
-/* line 125, /Users/jackie/Resume/sass/application.scss */
+/* line 137, /Users/jackie/Resume/sass/application.scss */
 section {
   padding: 15px;
   margin: 20px;
   line-height: 26px; }
-  /* line 130, /Users/jackie/Resume/sass/application.scss */
+  /* line 142, /Users/jackie/Resume/sass/application.scss */
   section .title-sec {
     margin-bottom: 10px;
     text-align: left; }
-  /* line 134, /Users/jackie/Resume/sass/application.scss */
+  /* line 146, /Users/jackie/Resume/sass/application.scss */
   section .title-desc {
     font-size: 12px;
     color: #626262; }
   @media screen and (max-width: 768px) {
-    /* line 125, /Users/jackie/Resume/sass/application.scss */
+    /* line 137, /Users/jackie/Resume/sass/application.scss */
     section {
       margin: -21px 40px 20px 40px;
       text-align: justify;
@@ -135,37 +144,37 @@ section {
       font-size: 14px;
       line-height: 22px; } }
   @media screen and (max-width: 580px) {
-    /* line 125, /Users/jackie/Resume/sass/application.scss */
+    /* line 137, /Users/jackie/Resume/sass/application.scss */
     section {
       font-size: 12px;
       padding: 10px;
       margin: 0 15px 10px 15px; } }
-  /* line 155, /Users/jackie/Resume/sass/application.scss */
+  /* line 167, /Users/jackie/Resume/sass/application.scss */
   section b {
     border-radius: 3px;
     padding: 2px; }
 
-/* line 162, /Users/jackie/Resume/sass/application.scss */
+/* line 174, /Users/jackie/Resume/sass/application.scss */
 #c1 {
   background: #e59191; }
 
-/* line 164, /Users/jackie/Resume/sass/application.scss */
+/* line 176, /Users/jackie/Resume/sass/application.scss */
 #c2 {
   background: #74c9c6; }
 
-/* line 166, /Users/jackie/Resume/sass/application.scss */
+/* line 178, /Users/jackie/Resume/sass/application.scss */
 #c3 {
   background: #89a8e2; }
 
-/* line 168, /Users/jackie/Resume/sass/application.scss */
+/* line 180, /Users/jackie/Resume/sass/application.scss */
 #c4 {
   background: #f0ac5d; }
 
-/* line 170, /Users/jackie/Resume/sass/application.scss */
+/* line 182, /Users/jackie/Resume/sass/application.scss */
 #c5 {
   background: #758898; }
 
-/* line 174, /Users/jackie/Resume/sass/application.scss */
+/* line 186, /Users/jackie/Resume/sass/application.scss */
 .picture {
   width: 175px;
   height: 175px;
@@ -173,17 +182,21 @@ section {
   border-radius: 100px;
   margin: auto; }
 
-/* line 181, /Users/jackie/Resume/sass/application.scss */
+/* line 193, /Users/jackie/Resume/sass/application.scss */
 .top-info {
   text-align: center;
   margin-bottom: 10px; }
-  /* line 186, /Users/jackie/Resume/sass/application.scss */
+  /* line 198, /Users/jackie/Resume/sass/application.scss */
   .top-info .name {
     margin-bottom: 5px;
     font-family: "secundary-sans";
     text-transform: uppercase; }
+  /* line 203, /Users/jackie/Resume/sass/application.scss */
+  .top-info .description {
+    margin: 5px 0 15px 0;
+    color: rgba(51, 51, 51, 0.6); }
 
-/* line 195, /Users/jackie/Resume/sass/application.scss */
+/* line 209, /Users/jackie/Resume/sass/application.scss */
 footer {
   padding: 18px 20px;
   height: 60px;
@@ -192,15 +205,15 @@ footer {
   text-transform: uppercase;
   width: 100%;
   font-size: 22px; }
-  /* line 204, /Users/jackie/Resume/sass/application.scss */
+  /* line 218, /Users/jackie/Resume/sass/application.scss */
   footer .footer-icons {
     display: inline;
     margin-left: 10px; }
-  /* line 209, /Users/jackie/Resume/sass/application.scss */
+  /* line 223, /Users/jackie/Resume/sass/application.scss */
   footer i {
     padding: 0 3px; }
   @media screen and (min-width: 769px) {
-    /* line 195, /Users/jackie/Resume/sass/application.scss */
+    /* line 209, /Users/jackie/Resume/sass/application.scss */
     footer {
       width: 30%;
       background: #2D3142;
@@ -209,59 +222,59 @@ footer {
       bottom: 0;
       padding: 15px; } }
   @media screen and (max-width: 768px) {
-    /* line 195, /Users/jackie/Resume/sass/application.scss */
+    /* line 209, /Users/jackie/Resume/sass/application.scss */
     footer {
       position: relative;
       display: block; }
-      /* line 226, /Users/jackie/Resume/sass/application.scss */
+      /* line 240, /Users/jackie/Resume/sass/application.scss */
       footer a:link {
         color: #2D3142;
         text-decoration: none; }
-      /* line 230, /Users/jackie/Resume/sass/application.scss */
+      /* line 244, /Users/jackie/Resume/sass/application.scss */
       footer a:visited {
         color: #2D3142; }
-      /* line 233, /Users/jackie/Resume/sass/application.scss */
+      /* line 247, /Users/jackie/Resume/sass/application.scss */
       footer a:hover {
         color: rgba(45, 49, 66, 0.5); }
-      /* line 236, /Users/jackie/Resume/sass/application.scss */
+      /* line 250, /Users/jackie/Resume/sass/application.scss */
       footer a:active {
         color: #2D3142; } }
 
-/* line 244, /Users/jackie/Resume/sass/application.scss */
+/* line 258, /Users/jackie/Resume/sass/application.scss */
 #canvas-holder {
   text-align: center; }
 
-/* line 247, /Users/jackie/Resume/sass/application.scss */
+/* line 261, /Users/jackie/Resume/sass/application.scss */
 #chart-area {
   width: 100%; }
 
-/* line 251, /Users/jackie/Resume/sass/application.scss */
+/* line 265, /Users/jackie/Resume/sass/application.scss */
 .credits {
   padding: 0 15px;
   text-align: right; }
   @media screen and (max-width: 768px) {
-    /* line 251, /Users/jackie/Resume/sass/application.scss */
+    /* line 265, /Users/jackie/Resume/sass/application.scss */
     .credits {
       background: #74c9c6; } }
 
-/* line 260, /Users/jackie/Resume/sass/application.scss */
+/* line 274, /Users/jackie/Resume/sass/application.scss */
 a:link {
   color: #FF5964;
   text-decoration: none; }
 
-/* line 264, /Users/jackie/Resume/sass/application.scss */
+/* line 278, /Users/jackie/Resume/sass/application.scss */
 a:visited {
   color: #FF5964; }
 
-/* line 267, /Users/jackie/Resume/sass/application.scss */
+/* line 281, /Users/jackie/Resume/sass/application.scss */
 a:hover {
   color: rgba(255, 89, 100, 0.5); }
 
-/* line 270, /Users/jackie/Resume/sass/application.scss */
+/* line 284, /Users/jackie/Resume/sass/application.scss */
 a:active {
   color: #FF5964; }
 
-/* line 275, /Users/jackie/Resume/sass/application.scss */
+/* line 289, /Users/jackie/Resume/sass/application.scss */
 .modal {
   display: none;
   width: 90%;
@@ -278,12 +291,12 @@ a:active {
   -o-box-shadow: 0 0 10px #000;
   -ms-box-shadow: 0 0 10px #000;
   box-shadow: 0 0 10px #000; }
-  /* line 292, /Users/jackie/Resume/sass/application.scss */
+  /* line 306, /Users/jackie/Resume/sass/application.scss */
   .modal textarea {
     max-width: 90%;
     min-height: 100px; }
 
-/* line 298, /Users/jackie/Resume/sass/application.scss */
+/* line 312, /Users/jackie/Resume/sass/application.scss */
 .modal a.close-modal {
   position: absolute;
   top: -12.5px;
@@ -294,7 +307,7 @@ a:active {
   text-indent: -9999px;
   background: url("../img/close.png") no-repeat 0 0; }
 
-/* line 309, /Users/jackie/Resume/sass/application.scss */
+/* line 323, /Users/jackie/Resume/sass/application.scss */
 .modal-spinner {
   display: none;
   width: 64px;
@@ -311,7 +324,7 @@ a:active {
   -ms-border-radius: 8px;
   border-radius: 8px; }
 
-/* line 324, /Users/jackie/Resume/sass/application.scss */
+/* line 338, /Users/jackie/Resume/sass/application.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
   border: 2px solid #FF5964;
@@ -320,7 +333,7 @@ input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:ac
   width: 90%;
   border-radius: 8px; }
 
-/* line 332, /Users/jackie/Resume/sass/application.scss */
+/* line 346, /Users/jackie/Resume/sass/application.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
   border: 2px solid #2D3142;
@@ -329,7 +342,7 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   width: 90%;
   border-radius: 8px; }
 
-/* line 340, /Users/jackie/Resume/sass/application.scss */
+/* line 354, /Users/jackie/Resume/sass/application.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
 button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
@@ -341,8 +354,19 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   width: 90%;
   border-radius: 8px; }
 
-/* line 352, /Users/jackie/Resume/sass/application.scss */
+/* line 366, /Users/jackie/Resume/sass/application.scss */
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
   border: 2px solid #FF5964; }
+
+/* line 374, /Users/jackie/Resume/sass/application.scss */
+.btn {
+  border: 2px solid #2D3142;
+  background: #2D3142;
+  color: #fff;
+  padding: 10px 5px;
+  margin: 5px;
+  width: 90%;
+  border-radius: 8px;
+  max-width: 200px; }
 
 /*# sourceMappingURL=application.css.map */
