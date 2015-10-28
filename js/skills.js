@@ -1,9 +1,9 @@
 var pieData = [
 				{
-					value: 200,
+					value: 150,
 					color:"#F7464A",
 					highlight: "#FF5A5E",
-					label: "HTML, CSS, Javascript"
+					label: "HTML & CSS"
 				},
 				{
 					value: 120,
@@ -23,7 +23,13 @@ var pieData = [
 					highlight: "#A8B3C5",
 					label: "JQuery"
 				}
-
+                ,
+				{
+					value: 50,
+					color: "#5eaed1",
+					highlight: "#A8B3C5",
+					label: "Google Search"
+				}
 			];
 
 			window.onload = function(){
