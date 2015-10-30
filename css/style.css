@@ -95,7 +95,7 @@ article {
         margin: 0;
         width: auto;
         padding: 10px 20px;
-        background: #FF5964; }
+        background: #f17378; }
         /* line 111, /Users/jackie/Resume/sass/application.scss */
         article .title .desc {
           margin-top: -10px;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 122, /Users/jackie/Resume/sass/application.scss */
 header {
-  background: #FF5964;
+  background: #f17378;
   padding: 30px; }
   @media screen and (max-width: 768px) {
     /* line 122, /Users/jackie/Resume/sass/application.scss */
@@ -200,7 +200,7 @@ section {
 footer {
   padding: 18px 20px;
   height: 60px;
-  background: #FF5964;
+  background: #f17378;
   font-family: "primary-sans";
   text-transform: uppercase;
   width: 100%;
@@ -259,20 +259,20 @@ footer {
 
 /* line 274, /Users/jackie/Resume/sass/application.scss */
 a:link {
-  color: #FF5964;
+  color: #f17378;
   text-decoration: none; }
 
 /* line 278, /Users/jackie/Resume/sass/application.scss */
 a:visited {
-  color: #FF5964; }
+  color: #f17378; }
 
 /* line 281, /Users/jackie/Resume/sass/application.scss */
 a:hover {
-  color: rgba(255, 89, 100, 0.5); }
+  color: rgba(241, 115, 120, 0.5); }
 
 /* line 284, /Users/jackie/Resume/sass/application.scss */
 a:active {
-  color: #FF5964; }
+  color: #f17378; }
 
 /* line 289, /Users/jackie/Resume/sass/application.scss */
 .modal {
@@ -327,7 +327,7 @@ a:active {
 /* line 338, /Users/jackie/Resume/sass/application.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
-  border: 2px solid #FF5964;
+  border: 2px solid #f17378;
   padding: 5px;
   margin: 3px;
   width: 90%;
@@ -356,7 +356,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 
 /* line 366, /Users/jackie/Resume/sass/application.scss */
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
-  border: 2px solid #FF5964; }
+  border: 2px solid #f17378; }
 
 /* line 374, /Users/jackie/Resume/sass/application.scss */
 .btn {
