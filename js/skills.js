@@ -28,7 +28,7 @@ var pieData = [
 					value: 50,
 					color: "#5eaed1",
 					highlight: "#A8B3C5",
-					label: "Google Search"
+					label: "C#"
 				}
 			];
 
