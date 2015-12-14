@@ -30,6 +30,13 @@ var pieData = [
 					highlight: "#A8B3C5",
 					label: "C#"
 				}
+                ,
+				{
+					value: 150,
+					color: "#cd88e2",
+					highlight: "#A8B3C5",
+					label: "Adobe Photoshop"
+				}
 			];
 
 			window.onload = function(){
