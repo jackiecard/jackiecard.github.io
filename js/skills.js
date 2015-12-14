@@ -1,38 +1,27 @@
 var pieData = [
 				{
-					value: 150,
+					value: 30,
 					color:"#F7464A",
 					highlight: "#FF5A5E",
 					label: "HTML & CSS"
-				},
+				}
+                ,
 				{
-					value: 120,
+					value: 30,
+					color: "#FDB45C",
+					highlight: "#FFC870",
+					label: "Javascript, JQuery & AngularJS"
+				}
+                ,
+				{
+					value: 20,
 					color: "#46BFBD",
 					highlight: "#5AD3D1",
 					label: "Java EE"
-				},
-				{
-					value: 100,
-					color: "#FDB45C",
-					highlight: "#FFC870",
-					label: "AngularJS"
-				},
-				{
-					value: 80,
-					color: "#949FB1",
-					highlight: "#A8B3C5",
-					label: "JQuery"
 				}
                 ,
 				{
-					value: 50,
-					color: "#5eaed1",
-					highlight: "#A8B3C5",
-					label: "C#"
-				}
-                ,
-				{
-					value: 150,
+					value: 20,
 					color: "#cd88e2",
 					highlight: "#A8B3C5",
 					label: "Adobe Photoshop"
