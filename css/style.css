@@ -370,3 +370,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   max-width: 200px; }
 
 /*# sourceMappingURL=application.css.map */
+
+p{
+    margin-bottom: 20px;
+}
