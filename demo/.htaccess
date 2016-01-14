@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile jackiecard.github.io/demo/.htpasswd  
+AuthUserFile /home/jackiecard/jackiecard.github.io/demo/.htpasswd  
 require valid-user
