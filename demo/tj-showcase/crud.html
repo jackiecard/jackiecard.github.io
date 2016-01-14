@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Showcase - CRUD</title>
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+	
+	<!-- CSS do documento -->
+	<link rel="stylesheet" type="text/css" href="css/crud.css">
+	
+	<!-- CSS do JQuery UI -->
+  	<link rel="stylesheet" href="css/jquery-ui.css">
+  	  	
+  	<!-- Scripts -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+    
+	<!-- Área de criação dos Scripts -->
+<script type="text/javascript">
+// O documento é inicializado com apenas o primeiro <article> visível
+$(document).ready(function(){
+	ocultaArticles();
+	$('#01').css({"display" : "block"});
+});
+
+// Torna todos os elementos <Article> ocultos
+function ocultaArticles() {
+	var elems = document.getElementsByTagName('article');
+	for (var i=0;i<elems.length;i+=1){
+		elems[i].style.display = 'none';
+	}
+}
+
+// Torna visível o <article> sujo o id foi selecionado pelo usuário através de um link
+function mostrarArticle(id) {
+	ocultaArticles();
+	var e = document.getElementById(id);
+	if(e.style.display == 'block')
+		e.style.display = 'none';
+	else
+		e.style.display = 'block';
+}
+</script>
+	
+</head>
+<body>
+<!-- 
+  --
+  --	HEADER
+  --
+  -->
+<header>
+	<div class="top">
+		<div class="grid-container">
+		    <div class="row">
+		    	<div class="col-3"><br><span>Poder Judiciário de Santa Catarina</span></div> 
+		        <div class="col-3">
+					 <nav>
+						<ul>
+						  <li><a href="http://www.w3schools.com/" title="HTML5, JSON, JQuery">W3Schools</a></li>
+						  <li><a href="http://www.tutorialspoint.com/" title="HTML5, JSON, JQuery">Tutorials Point</a></li>
+						  <li><a href="http://api.jquery.com/" title="Especificações JQuery">JQuery API</a></li>
+						  <li><a href="http://www.html5-tutorials.org/" title="HTML5 Tutorials">HTML5 Tutorials</a></li>
+						  <li><a href="http://www.html5rocks.com/pt/tutorials/" title="HTML5 Rocks">HTML5 Rocks</a></li>
+						  <li><a href="http://www.html5canvastutorials.com/" title="HTML5 Canvas Tutorials">HTML5 Canvas</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Barra cinza com o título, subtítulo e botões de acessibilidade -->
+	<div class="barra-cinza">
+		<div class="grid-container">
+			    <div class="row">
+			    	<div class="col-3"><h1 id="tituloShowcase">Showcase</h1> - CRUD</div> 
+			        <div class="col-3" id="botoes-acess"><button class="aumentaFonte">A+</button><button class="diminueFonte">A-</button></div>
+			    </div>
+		</div>
+	</div>
+</header>
+
+<!-- 
+  --
+  --	SUMÁRIO
+  --
+  -->
+<section>
+	<h2>Sumário</h2>
+	<ol class="sumario-ol">
+		<li><a onclick="mostrarArticle('01');" href="#01">Cadastrar</a></li>
+		<li><a onclick="mostrarArticle('02');" href="#02">Listar</a></li>
+	</ol>
+</section>
+
+
+<!-- 
+  --
+  --	CONTEÚDO
+  --
+  -->
+<section>
+	<!-- Começa Formulário AJAX -->
+	<article id="01">
+	<h2>Formulário AJAX</h2>
+	<b>Tecnologias utilizadas:</b> AJAX<br><br>
+	
+	</article>
+	
+	<!-- Começa Acessibilidade -->
+	<article id="02">
+	<h2>Acessibilidade</h2>
+	<p></p>
+	</article>
+	
+	<!-- Começa o article de Teste -->
+	<article id="00">
+	<a id="#00"><h2>Título</h2></a>
+	<p>
+	<b>Tecnologias utilizadas:</b> <br>
+	</p>
+	</article>
+
+<br><br>
+</section>
+
+<!-- Footer -->
+<footer>
+<p>TJSC Showcase JavaScript/HTML5 - Versão 1.0</p>
+</footer>
+
+</body>
+</html>

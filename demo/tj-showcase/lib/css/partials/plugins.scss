@@ -1,0 +1,40 @@
+@import "../modules/colors";
+
+@import "tipography";
+
+/*****************************************************
+ *                      Plugins                      *
+ *****************************************************/
+
+
+/********************* ngDialog **********************/
+.ngdialog, .ngdialog-message{
+    
+    font-size: $regular-font-size;
+    
+    h3, h2{
+        background: $light-green;
+        padding: 10px;
+        margin: -12px -12px 12px -12px;
+        font-size: $regular-font-size;
+        color: #ffffff !important;
+    }
+}
+
+.ngdialog.ngdialog-theme-plain .ngdialog-close:before {
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	right: 8px;
+	top: 8px;
+	width: 30px;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-close:before {
+    color: #fff;
+	height: 30px;
+	line-height: 30px;
+	right: 8px;
+	top: 8px;
+	width: 30px;
+}

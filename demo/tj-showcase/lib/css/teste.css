@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.ui-datepicker-trigger{
+	padding: 2px;
+	background: none;
+	margin-right: 10px;
+}
+
+.ui-datepicker-trigger:hover{
+	background: none;
+}
+

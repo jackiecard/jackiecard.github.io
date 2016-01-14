@@ -1,0 +1,9 @@
+<div ng-controller="bottomAlertShowcaseSourceController as src">
+
+    <button class="pure-button botao-azul" data-ng-click="src.onClickGetJs()">Controller.js</button>
+    <button class="pure-button botao-azul" data-ng-click="src.onClickGetHtml()">Template.html</button>
+    
+    <pre class="hljs" highlight>{{src.source}}</pre>
+	<source-descricao>Source code</source-descricao>
+	
+</div>

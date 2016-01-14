@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/*****************************************************
+ *                     Form                          *
+ *****************************************************/
+/*****************************************************
+ *                     Cores                         *
+ *****************************************************/
+/******************* Toastr Buttons ******************/
+/********************* Formulário *******************/
+/********************* Tabelas **********************/
+/*****************************************************
+ *                   Tipography                      *
+ *****************************************************/
+/*************** Tamanhos de Fontes ******************/
+/* line 4, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/neat/grid/_box-sizing.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 11, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/neat/grid/_box-sizing.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/********************* Inputs ***********************/
+/* line 14, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+input, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea, input[type="checkbox"], input[type="radio"], select, .input {
+  border: 1px solid #CCCCCC;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 0.6em 0.7em;
+  margin: 5px;
+  display: inline-block;
+  box-shadow: inset 0 1px 3px #ddd;
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+  max-width: 100%; }
+  /* line 4, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/bourbon/css3/_placeholder.scss */
+  input::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input[type="checkbox"]::-webkit-input-placeholder, input[type="radio"]::-webkit-input-placeholder, select::-webkit-input-placeholder, .input::-webkit-input-placeholder {
+    color: #CCCCCC; }
+  /* line 4, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/bourbon/css3/_placeholder.scss */
+  input::-moz-placeholder, input[type="color"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="week"]::-moz-placeholder, textarea::-moz-placeholder, input[type="checkbox"]::-moz-placeholder, input[type="radio"]::-moz-placeholder, select::-moz-placeholder, .input::-moz-placeholder {
+    color: #CCCCCC; }
+  /* line 4, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/bourbon/css3/_placeholder.scss */
+  input:-moz-placeholder, input[type="color"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="week"]:-moz-placeholder, textarea:-moz-placeholder, input[type="checkbox"]:-moz-placeholder, input[type="radio"]:-moz-placeholder, select:-moz-placeholder, .input:-moz-placeholder {
+    color: #CCCCCC; }
+  /* line 4, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/bourbon/css3/_placeholder.scss */
+  input:-ms-input-placeholder, input[type="color"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder, textarea:-ms-input-placeholder, input[type="checkbox"]:-ms-input-placeholder, input[type="radio"]:-ms-input-placeholder, select:-ms-input-placeholder, .input:-ms-input-placeholder {
+    color: #CCCCCC; }
+
+/* line 31, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover {
+  border: 1px solid #80bce2; }
+
+/* line 35, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+input:active, input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, textarea:active {
+  border: 1px solid #78d478; }
+
+/*********************** Label ***********************/
+/* line 40, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+label {
+  font-weight: bold;
+  padding: 5px; }
+
+/******************** Form Grid **********************/
+/* line 46, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+form.grid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/bourbon/addons/_clearfix.scss */
+  form.grid::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 50, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+  form.grid label.col {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    /* line 87, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/neat/grid/_span-columns.scss */
+    form.grid label.col:last-child {
+      margin-right: 0; }
+  /* line 54, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+  form.grid .col2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-bottom: 10px; }
+    /* line 87, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/neat/grid/_span-columns.scss */
+    form.grid .col2:last-child {
+      margin-right: 0; }
+    /* line 78, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/neat/grid/_omega.scss */
+    form.grid .col2:nth-child(2) {
+      margin-right: 0; }
+  /* line 60, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/form.scss */
+  form.grid textarea {
+    margin: 0;
+    width: 50%;
+    max-width: 100%; }
+
+/*# sourceMappingURL=form.css.map */

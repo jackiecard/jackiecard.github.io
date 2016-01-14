@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" ng-app="showcase">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>TJSC Showcase</title>
+    
+    <!-- libs, frameworks -->
+    <script src="lib/js/vendor.min.js" charset="UTF-8"></script>  
+    <script src="lib/js/tjsc-ngcomponents-0.0.1-SNAPSHOT.js"></script>
+
+    <!--
+    
+    <script type="text/javascript" src="lib/js/mask.js"></script>
+    <script type="text/javascript" src="lib/js/angular-validation.js"></script>
+    <script type="text/javascript" src="lib/js/angular-validation-rule.js"></script>
+    <script type="text/javascript" src="lib/js/angular-strap.min.js"></script>
+    <script type="text/javascript" src="lib/js/angular-strap.tpl.min.js"></script>
+    
+    <script type="text/javascript" src="lib/js/cpf-cnpj.js"></script>
+    -->
+    <script type="text/javascript" src="lib/js/ng-animate.js"></script>
+
+    <!-- Arquivo Principal, Bootstrap e Imports -->
+    <link rel="stylesheet" href="lib/css/tjsc.css">
+    
+    <!-- especificos do projeto -->
+    <script src="lib/js/highlight.min.js" charset="UTF-8"></script>
+    
+    <!-- teste -->
+    <link rel="stylesheet" href="//template.tjsc.jus.br/fw3/0.0.1/fonts/font-awesome/css/font-awesome.min.css">
+    
+    <script src ="//template.tjsc.jus.br/fw3/libs/text-angular/1.3.8/textAngular.min.js" charset="UTF-8"></script>
+    <script src ="//template.tjsc.jus.br/fw3/libs/text-angular/1.3.8/textAngular-rangy.min.js" charset="UTF-8"></script>
+
+    
+    <!-- projeto -->
+    
+    <script src="js/app.js"></script>
+    
+    <script src="js/controller/welcomeController.js"></script>
+    
+    <script src="components/alert/alertShowcaseController.js"></script>
+    <script src="components/alert/alertShowcaseSourceController.js"></script>
+    
+    <script src="components/bottom-alert/bottomAlertShowcaseController.js"></script>
+    <script src="components/bottom-alert/bottomAlertShowcaseSourceController.js"></script>
+    
+    <script src="components/chosen/chosenShowcaseController.js"></script>
+    <script src="components/chosen/chosenShowcaseSourceController.js"></script>
+    
+    <script src="components/combo/comboShowcaseController.js"></script>
+    <script src="components/combo/comboShowcaseSourceController.js"></script>
+    
+    <script src="components/date-picker/datePickerShowcaseController.js"></script>
+    <script src="components/date-picker/datePickerShowcaseSourceController.js"></script>
+    
+    <script src="components/spinner/spinnerShowcaseController.js"></script>
+    <script src="components/spinner/spinnerShowcaseSourceController.js"></script>    
+    
+    <script src="components/rich-text/richTextShowcaseController.js"></script>
+    <script src="components/rich-text/richTextShowcaseSourceController.js"></script>
+    
+    <script src="components/ui-kit/form/formSourceController.js"></script>
+    <script src="components/ui-kit/table/tableSourceController.js"></script>
+    <script src="components/ui-kit/abas/abasSourceController.js"></script>
+    <script src="components/ui-kit/accordion/accordionSourceController.js"></script>
+    
+    <script src="js/controller/pessoaController.js"></script>
+    <script src="js/service/pessoaHttpService.js"></script>
+    
+    <script src="js/directives/directives.js"></script>
+    <script src="js/directives/factories.js"></script>
+    
+  
+</head>
+<body>
+
+    	<nav class="navbar navbar-inverse navbar-top no-border">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">
+	          	<div style="display: inline-block; margin-top: -10px;">
+					<img src="lib/img/logo-simples.png" style="height: 40px;">
+				</div>
+				
+	          	<div style="display: inline-block;">
+	          	Showcase
+	          	</div>
+	          </a>
+	        </div>
+              
+	        <div id="navbar" class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    <li><a href="#/">Início</a></li>
+                    
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle">Componentes <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/alert">Alert</a></li>
+                            <li><a href="#/bottom-alert">Bottom Alert</a></li>
+                            <li><a href="#/chosen">Chosen</a></li>
+                            <li><a href="#/date-picker">Date Picker</a></li>
+                            <li><a href="#/rich-text">Rich Text</a></li>
+                            <li><a href="#/spinner">Spinner</a></li>
+                            <li><a href="#/ui-kit/collapse">Collapse</a></li>
+                            <li><a href="#/ui-kit/accordion">Accordion</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#/ui-kit/tabelas">Tabelas Responsivas</a></li>
+                            <li><a href="#/ui-kit/icones">Ícones</a></li>
+                            <li><a href="#/ui-kit/abas">Abas</a></li>
+                            <li><a href="#/">Crud</a></li>
+                            <li><a href="#/">Combo</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle">CSS <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/ui-kit/tipografia">Tipografia</a></li>
+                            <li><a href="#/ui-kit/botoes">Botões</a></li>
+                            <li><a href="#/ui-kit/formularios">Formulário</a></li>
+                            <li><a href="#/ui-kit/cores">Cores</a></li>
+                            
+                            <li class="divider"></li>
+                            <li><a href="#/ui-kit/theme">Bootstrap Theme</a></li>
+                            <li><a href="#/ui-kit/jquery-ui">JQuery UI</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                
+	          
+	        <div class="navbar-text navbar-right"><span class="glyphicon glyphicon-user tx-green"></span> jose@tjsc.jus.br (<a href="#">sair</a>) </div>
+	      
+	        </div><!--/.nav-collapse -->
+	        
+	      </div>
+	    </nav>
+	    
+    <main>
+    	<div class="row">
+			<aside class="col-md-3 hidden-xs" ng-include="'partials/menu.html'"></aside>
+			<div class="col-md-9 panel panel-default">
+				<div class="panel-body">
+					<section ng-view=""></section>
+				</div>
+			</div>
+		</div>
+    </main>
+
+	<footer id="footer">FW3 Showcase Demo<br> &copy; Tribunal de Justiça de Santa Catarina</footer>
+
+
+</body>
+</html>

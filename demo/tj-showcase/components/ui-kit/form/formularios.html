@@ -1,0 +1,32 @@
+<article>
+	<titulo>
+	<i class="glyphicon glyphicon-list-alt"></i> Formulário</titulo>
+	<p>Exemplo de formulário contendo todos os componentes de input:</p>
+
+	<div role="tabpanel">
+	
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs" role="tablist">
+	    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Formulário Estilizado</a></li>
+	    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Formulário Comum</a></li>
+	  </ul>
+	
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+	    <div role="tabpanel" class="tab-pane active" id="home">
+	    	<titulo>Formulário Estilizado</titulo>
+				<p>Com Grid System e classe "form-control" do Bootstrap que redimenciona os inputs para se ajustarem à tela.</p>				
+				<div ng-include="'components/ui-kit/form/form-example-estilizado.html'"></div>
+		</div>
+	    <div role="tabpanel" class="tab-pane" id="profile">
+	    	<titulo>Formulário Comum</titulo>
+				<p>Sem Grid System e estilizações.</p>
+				<div ng-include="'components/ui-kit/form/form-example.html'"></div>	
+		</div>
+	  </div>
+	</div>
+	<br>
+
+	<div ng-include="'components/ui-kit/form/form-source.html'"></div>	
+	
+</article>

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*****************************************************
+ *                     Cores                         *
+ *****************************************************/
+/********************* Palleta TJSC ******************/
+/******************* Cabecalho **********************/
+/********************* Formulário *******************/
+/*********************** Botões *********************/
+/********************* Tabelas **********************/
+/******************* Toastr Buttons ******************/
+/*****************************************************
+ *                   Tipography                      *
+ *****************************************************/
+/*************** Tamanhos de Fontes ******************/
+/*****************************************************
+ *                      Nav                          *
+ *****************************************************/
+/* line 11, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+nav {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  /* line 14, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    /* line 19, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+    nav ul li {
+      margin: 0;
+      padding: 0; }
+
+/******************* Nav Vertical *******************/
+/* line 32, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+.vertical ul li, .horizontal ul li {
+  border-bottom: 1px dotted #333;
+  margin-left: 5px; }
+  /* line 36, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+  .vertical ul li :hover, .horizontal ul li :hover {
+    background: #333;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1, 0.5); }
+/* line 43, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+.vertical ul li:first-child a:hover, .horizontal ul li:first-child a:hover {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+
+/***************** Nav Horizontal ******************/
+/* line 52, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+.horizontal {
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5); }
+  /* line 55, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+  .horizontal ul li {
+    border-bottom: 0;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 60, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+    .horizontal ul li :hover {
+      background: #b7b7b7;
+      color: white;
+      font-size: 16px;
+      box-shadow: 1px 1px 5px 0 transparent; }
+  /* line 67, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/nav.scss */
+  .horizontal ul li:first-child a:hover {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0; }
+
+/*# sourceMappingURL=nav.css.map */

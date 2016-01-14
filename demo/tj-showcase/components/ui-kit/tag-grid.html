@@ -1,0 +1,37 @@
+<titulo><i class="fa fa-code"></i> Grid System</titulo>
+    
+    <p>Tags &#60;grid&#62; e &#60;coluna&#62;, representadas como:</p>
+    <well>
+	    <grid>
+	    	<coluna ocupa="3">Tamanho 3</coluna>
+	    	<coluna ocupa="6">Tamanho 6</coluna>
+	    	<coluna ocupa="3" nova-linha>Tamanho 3</coluna>
+	    	<coluna ocupa="2">Tamanho 2</coluna>
+	    	<coluna ocupa="5">Tamanho 5</coluna>
+	    	<coluna ocupa="5">Tamanho 5</coluna>
+	    </grid>
+    </well>
+    
+    <p>Escrito como:</p>
+    
+    <pre><code class="hljs">&#60;grid>
+	&#60;coluna ocupa="3">Coluna 1&#60;/coluna>
+	&#60;coluna ocupa="6">Coluna 2&#60;/coluna>
+	&#60;coluna ocupa="3" nova-linha>Coluna 3&#60;/coluna>
+	&#60;coluna ocupa="2">Coluna 1&#60;/coluna>
+	&#60;coluna ocupa="5">Coluna 2&#60;/coluna>
+	&#60;coluna ocupa="5">Coluna 3&#60;/coluna>
+&#60;/grid></code></pre>
+    
+	<br>
+    
+    <p>Renderizado como:</p>
+    
+    <pre><code class="hljs">&#60;div class="grid">
+	&#60;div class="col-3">Coluna 1&#60;/div>
+	&#60;div class="col-6">Coluna 2&#60;/div>
+	&#60;div class="col-3 nextline">Coluna 3&#60;/div>
+	&#60;div class="col-2">Coluna 1&#60;/div>
+	&#60;div class="col-5">Coluna 2&#60;/div>
+	&#60;div class="col-5">Coluna 3&#60;/div>
+&#60;/div></code></pre>

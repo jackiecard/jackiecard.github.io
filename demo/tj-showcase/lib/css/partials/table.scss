@@ -1,0 +1,163 @@
+@import "../modules/colors";
+
+@import "tipography";
+
+@import "../bourbon/bourbon";
+
+/*****************************************************
+ *                     Tabela                        *
+ *****************************************************/
+table {
+        border-collapse: collapse;
+        width: 100%;    
+    }
+    
+    th, td {
+        padding: 0.5rem;
+        text-align: left;
+        border-width: 0 0 0 0;
+        border: 0;
+        border-bottom: 1px solid $silver;
+        box-shadow: 0 0 0 0;
+    }
+
+    tr:first-child th{
+        border: 0;
+    }
+
+    thead {
+        background: $table-silver; 
+        text-align: left;
+        vertical-align: bottom;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background: none;
+    }
+    
+    tbody tr:nth-child(even) {
+        background: $table-light-silver;
+    }
+
+    thead:first-child tr:first-child th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+
+    thead:first-child tr:first-child th:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    tr:hover, tbody tr:nth-child(odd):hover, tr:nth-child(even):hover {
+        background: $silver;
+    }
+    
+    tr:first-child:hover {
+        background: none;
+    }
+
+
+.light-table{
+    table {
+      border-collapse: collapse;
+      width: 100%;    
+    }
+
+    th, td {
+        padding: 0.5rem;
+        text-align: left;
+        border-width: 0 0 0 0;
+        border: 1px solid $light-silver;
+        box-shadow: 0 0 0 1px $light-silver;
+    }
+
+    thead {
+        background: $silver;
+        text-align: left;
+        vertical-align: bottom;
+    }
+
+    tr:first-child th{
+        border: 0;
+    }
+
+    thead:first-child tr:first-child th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+
+    thead:first-child tr:first-child th:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    tbody tr:nth-child(even) {
+        background: $table-silver;
+    }
+
+    tr:hover, tbody tr:nth-child(odd):hover, tbody tr:nth-child(even):hover {
+        background: $table-light-silver;
+    }
+
+    tr:first-child:hover {
+        background: none;
+    }
+}
+
+/******************* Tabela Escura *******************/
+.dark-table{
+    table {
+        color: $silver;
+    }
+    
+    th, td {
+        border: 1px solid $grey-toolbar;
+        box-shadow: 0 0 0 1px $grey-toolbar;
+    }
+    
+    thead {
+        background: $grey-toolbar;
+        color: $silver;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background: $grey;
+        color: $light-silver;
+    }
+    
+    tbody tr:nth-child(even) {
+        background: $table-dark-grey;
+        color: $silver;
+    }
+    
+    tr:hover, tbody tr:nth-child(odd):hover, tbody tr:nth-child(even):hover {
+        background: $dark-grey;
+    }
+    
+    tr:first-child:hover {
+        background: none;
+    }
+}
+
+/************ Linhas Cores Diferentes ****************/
+.striped{
+    tbody tr:nth-child(even) {
+        background: $table-light-silver;
+    }
+    tbody tr:nth-child(even):hover {
+        @extend tr:hover;
+    }
+}
+
+/****************** Borda Quadrada *******************/
+.square{
+    thead:first-child tr:first-child th:first-child {
+        border-radius: 0;
+    }
+
+    thead:first-child tr:first-child th:last-child {
+        border-radius: 0;
+    }   
+}
+
+/**************** Títulos em Verde ******************/
+.green{
+        thead{color: $light-green;}
+}

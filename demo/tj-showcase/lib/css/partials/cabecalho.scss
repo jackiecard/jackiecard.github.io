@@ -1,0 +1,259 @@
+/*****************************************************
+ *                   Cabeçalho                       *
+ *****************************************************/
+
+@CHARSET "UTF-8";
+
+@import "../modules/colors";
+
+@import "tipography";
+
+.cabecalho{
+	top: 0;
+   	width: 100%;
+   	margin-top: -1px;
+   	color: $silver;
+    font: $font-base;
+   	text-shadow: 0 0 1px rgba(51,51,51,0.2);
+
+    #titulo{
+        padding: 5px 0 5px 50px;
+        min-width: 50%;
+        font-size: 10px;
+        background-color: $dark-grey;
+        display: block;
+        position: relative;
+        box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.3);
+    }
+}
+
+.app-info{
+   	padding: 10px 0 0 50px;
+   	min-width: 50%;
+	display: block;
+	position: relative;
+
+
+    #sigla{
+        font-size: 24px;
+        color: $light-green;
+        font-weight: bold;
+        padding-right: 20px;
+    }
+
+    #descricao{
+        font-size: 16px;
+        color: $grey;
+        padding-right: 20px;
+    }
+
+    #versao{
+        font-size: 12px;
+        color: $grey;
+    }
+}
+
+.toolbar{
+	padding: 20px 30px;
+	top: 0;
+	right: 0;
+   	min-width: 57.2%;
+	display: inline;
+	position: absolute;
+	background-color: $dark-grey;
+	-moz-border-bottom-left-radius: 50px;
+ 	-webkit-border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    @include border-bottom-radius(50px);
+    @include border-right-radius(0);
+	box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.3);
+}
+
+.toolbar-text{
+	font-size: 14px;
+	display: inline;
+
+    #login{
+        text-align: right;
+        float: right;
+    }
+
+    #menu-tool{
+        text-align: left;
+        float: left;
+    }
+
+    #menu-options{
+        display: inline-block;
+        margin: 0 10px 0 0;
+        padding: 0;
+    }
+
+    #menu-options li{
+        display: inline-block;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    a{ color: $light-green; }
+    a:ACTIVE{ color: $light-green; }
+    a:VISITED{ color: $light-green; }
+    a:HOVER{ color: white; }
+}
+
+#user-info{
+	min-width: 120px;
+	max-width: 200px;
+	min-height: 60px;
+	background: white;
+	border: 3px solid $light-green;
+	right: 5px;
+	margin-top: -5px;
+	padding: 10px;
+	position: absolute;
+	-webkit-border-radius: 6px;
+ 	-moz-border-radius: 6px;
+ 	border-radius: 6px;
+ 	color: $dark-grey;
+ 	font-size: 11px;
+	box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.3);
+
+    a{
+        color: $light-green;
+        cursor: pointer;
+    }
+}
+
+#user-info:before{
+	content:"";
+	position: absolute;
+	bottom: 100%;
+	right: 21px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 26px solid #549943;
+}
+
+#settings-icon{
+	background: $light-green;
+	color: $dark-grey;
+	padding-bottom: 5px;
+	-webkit-border-radius: 6px 6px 0 0;
+ 	-moz-border-radius: 6px 6px 0 0;
+ 	border-radius: 6px 6px 0 0;
+    
+    a{
+        color: $dark-grey;
+    }
+}
+
+/************* MEDIA QUERIES **************/
+@media screen and (max-width: 600px) {
+	.cabecalho #titulo{
+   		display: none;
+	}
+	
+	#user-info{
+		margin-top: 20px;
+	}
+    
+	.toolbar{
+        min-width: 100%;
+	    padding: 10px 20px;
+    }
+    
+	.toolbar-text{
+		font-size: 14px;
+	}
+    
+    .app-info{
+        margin: 40px 0 -30px 0;
+        padding: 20px;
+        padding-right: 40px;
+        width: 100%;
+        display: block;
+        position: relative;
+        
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+	.app-info #sigla{
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.app-info #sigla{
+   		font-size: 20px;
+		padding-right: 5px;
+	}
+	
+	.cabecalho #titulo{
+   		padding-left: 10px;
+   		font-size: 9px;
+	}
+	
+	.app-info{
+	   	padding: 10px 0 0 20px;
+	}
+	
+	.app-info #descricao{
+	   	font-size: 10px;
+		padding-right: 0;
+	}
+	
+	.cabecalho #toolbar{
+		padding: 20px 40px 20px 40px;
+	   	width: 60%;
+	}	
+}
+
+@media screen and (max-width: 1150px) {	
+	.app-info #versao{
+	   	display: none;
+	}
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1999px){
+	.app-info #sigla{
+		margin-left: -25px;
+	}
+    
+    .app-info #descricao{
+	   	margin-left: -10px;
+	   	padding-right: 10px;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.app-info #sigla{
+   		font-size: 34px;
+		padding-right: 5px;
+	}
+	
+	.cabecalho #titulo{
+   		font-size: 18px;
+	}
+	
+	.app-info #descricao{
+	   	font-size: 24px;
+	}
+	
+	.cabecalho #toolbar{
+		padding: 20px 40px 20px 40px;
+	   	width: 70%;
+	}	
+	
+	.app-info #versao{
+	   	display: none;
+	}
+	
+	.toolbar-text{
+		font-size: 24px;
+	}
+}
+
+

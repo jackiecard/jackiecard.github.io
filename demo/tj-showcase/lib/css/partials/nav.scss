@@ -1,0 +1,73 @@
+@import "../modules/colors";
+
+@import "tipography";
+
+@import "../bourbon/bourbon";
+
+/*****************************************************
+ *                      Nav                          *
+ *****************************************************/
+
+nav{
+    font-family: $font-secundary;
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        li{
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+
+/******************* Nav Vertical *******************/
+.vertical{
+    ul{
+       
+
+        li{
+            border-bottom: 1px dotted $dark-grey;
+            margin-left: 5px;
+            
+            :hover{
+                background: $dark-grey;
+                font-size: $lg-font-size;
+                box-shadow: 1px 1px 5px 0 rgba(0,0,1,0.5);
+            }
+        }
+        
+        li:first-child a:hover {
+	       @include border-top-radius(10px);
+	       @include border-left-radius(0);
+        }
+    }
+}
+
+
+/***************** Nav Horizontal ******************/
+.horizontal{
+    @extend .vertical;
+    ul{
+        li{
+            border-bottom: 0;
+            display: inline-block;
+            padding: 0 10px;
+            
+            :hover{
+                background: #b7b7b7;
+                color: white;
+                font-size: $lg-font-size;
+                box-shadow: 1px 1px 5px 0 rgba(0,0,0,0);
+            }
+        }
+        li:first-child a:hover {
+	       @include border-top-radius(0);
+	       @include border-left-radius(0);
+        }
+    }
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+}

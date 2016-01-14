@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/*****************************************************
+ *                     Cores                         *
+ *****************************************************/
+/********************* Palleta TJSC ******************/
+/******************* Cabecalho **********************/
+/********************* Formulário *******************/
+/*********************** Botões *********************/
+/********************* Tabelas **********************/
+/******************* Toastr Buttons ******************/
+/*****************************************************
+ *                   Tipography                      *
+ *****************************************************/
+/*************** Tamanhos de Fontes ******************/
+/*****************************************************
+ *                     Abas                          *
+ *****************************************************/
+/* line 11, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/abas.scss */
+.aba-botao {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+/* line 17, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/abas.scss */
+.abas .aba {
+  padding: 10px 20px;
+  margin-bottom: -1px;
+  display: inline-block;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+  @media screen and (min-width: 320px) and (max-width: 667px) {
+    .abas .aba {
+      padding: 8px 3px;
+      width: 100%;
+      display: block;
+      font-size: 12px; } }
+
+/* line 41, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/abas.scss */
+.aba-chosen, .abas .aba:focus {
+  background: #339933;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #CCCCCC;
+  border-bottom: 0;
+  box-shadow: 0 5px 10px #336633 inset; }
+
+/* line 50, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/abas.scss */
+.abas-descricao {
+  color: #666666;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 5px;
+  border: 1px solid #CCCCCC;
+  background: #CCCCCC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+/* line 60, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/abas.scss */
+.abas-container {
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+/*# sourceMappingURL=abas.css.map */

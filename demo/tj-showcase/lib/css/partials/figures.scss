@@ -1,0 +1,11 @@
+/*****************************************************
+ *                     Imagens                       *
+ *****************************************************/
+
+$path-images: "img/";
+
+$tj-background: $path-images + "background.png";
+$calendar: $path-images + "calendar2.png";
+
+$chosen-sprite-path: $path-images + "chosen-sprite.png" !default;
+$chosen-sprite-retina-path: $path-images + "chosen-sprite@2x.png" !default;

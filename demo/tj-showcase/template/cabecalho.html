@@ -1,0 +1,40 @@
+<head>
+<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+</head>
+	<div class='cabecalho'>
+	
+		<div id='titulo'>Poder Judiciário de Santa Catarina</div>
+
+		<div class='app-info'>
+			<a href='#/log'> <span id='sigla'>NGS</span> <span id='descricao'>JS/Angular Showcase</span>
+			</a> 
+			<span id='versao'>Versão 0.0.1 Snapshot</span>
+		</div>
+
+		<div class='toolbar'>
+			<div class='toolbar-text'>
+				<div id='menu-tool'>
+					<a ng-click='headerCtrl.toggle($event)' href=''><i class='fa fa-bars'></i> Menu</a>
+					<ul id='menu-options' ng-show='headerCtrl.mostra' >
+						<li><a ng-href=''>Opção 1</a></li>
+						<li><a ng-href=''>Opção 2</a></li>
+						<li><a ng-href=''>Opção 3</a></li>
+					</ul>
+				</div>
+				<div id='login'>
+					<span id='user'>email@tjsc.jus.br 
+						<span ng-class='nada'><a ng-click='headerCtrl.settings($event)' href=''><i class='fa fa-cog'></i></a></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div ng-show='headerCtrl.userInfo' id='user-info'>
+			<b>João da Silva</b><br>
+			email@tjsc.jus.br<br><br>
+			
+			<a ng-href=''><i class='fa fa-user'></i> Preferências</a> |
+			<a ng-href=''><i class='fa fa-sign-out'></i> Logoff</a>
+		</div>
+		
+	</div>

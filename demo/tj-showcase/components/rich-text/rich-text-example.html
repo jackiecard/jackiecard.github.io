@@ -1,0 +1,34 @@
+<h3>Editor demo</h3> 
+<div text-angular 
+     ng-model="controller.html" 
+     name="demo-editor" 
+     ta-toolbar = "[['bold','italics','underline'],['undo','redo','clear'],['justifyLeft','justifyCenter','justifyRight']]"
+     ta-text-editor-class="border-around" 
+     ta-html-editor-class="border-around">
+</div>
+
+<style>
+/* Editor styling */
+
+.ta-toolbar {
+	background-color: #F0F0F0;
+	padding: 10px 10px 5px;
+	margin-left: 0px; /* Override bootstrap */
+	border: 1px solid #EEE;
+}
+
+.ta-toolbar .btn-group {
+	margin-bottom: 5px;
+}
+
+.ta-editor, .white-box {
+	padding: 10px;
+	background-color: #FFF;
+	border: 1px solid #EEE;
+}
+
+textarea.ta-bind {
+	width: 100%;
+}
+
+</style>

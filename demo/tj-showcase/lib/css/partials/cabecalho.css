@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/*****************************************************
+ *                   Cabeçalho                       *
+ *****************************************************/
+@CHARSET "UTF-8";
+/*****************************************************
+ *                     Cores                         *
+ *****************************************************/
+/******************* Toastr Buttons ******************/
+/********************* Formulário *******************/
+/********************* Tabelas **********************/
+/*****************************************************
+ *                   Tipography                      *
+ *****************************************************/
+/*************** Tamanhos de Fontes ******************/
+/* line 11, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+.cabecalho {
+  top: 0;
+  width: 100%;
+  margin-top: -1px;
+  color: #CCCCCC;
+  font: "Verdana", "Geneva", sans-serif;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.2); }
+  /* line 19, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #titulo {
+    padding: 5px 0 5px 50px;
+    min-width: 50%;
+    font-size: 10px;
+    background-color: #333;
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3); }
+
+/* line 30, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+.app-info {
+  padding: 10px 0 0 50px;
+  min-width: 50%;
+  display: block;
+  position: relative; }
+  /* line 37, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #sigla {
+    font-size: 24px;
+    color: #339933;
+    font-weight: bold;
+    padding-right: 20px; }
+  /* line 44, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #descricao {
+    font-size: 16px;
+    color: #666666;
+    padding-right: 20px; }
+  /* line 50, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #versao {
+    font-size: 12px;
+    color: #666666; }
+
+/* line 56, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+.toolbar {
+  padding: 20px 30px 20px 30px;
+  top: 0;
+  right: 0;
+  min-width: 57.2%;
+  display: inline;
+  position: absolute;
+  background-color: #333;
+  -moz-border-bottom-left-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3); }
+
+/* line 70, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+.toolbar-text {
+  font-size: 14px;
+  display: inline; }
+  /* line 74, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text #login {
+    text-align: right;
+    float: right; }
+  /* line 79, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text #menu-tool {
+    text-align: left;
+    float: left; }
+  /* line 84, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text #menu-options {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0; }
+  /* line 90, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text #menu-options li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px; }
+  /* line 96, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text a {
+    color: #339933; }
+  /* line 97, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text a:ACTIVE {
+    color: #339933; }
+  /* line 98, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text a:VISITED {
+    color: #339933; }
+  /* line 99, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text a:HOVER {
+    color: white; }
+
+/* line 102, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+#user-info {
+  min-width: 120px;
+  max-width: 200px;
+  min-height: 60px;
+  background: white;
+  border: 3px solid #339933;
+  right: 5px;
+  margin-top: -5px;
+  padding: 10px;
+  position: absolute;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #333;
+  font-size: 11px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3); }
+  /* line 119, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  #user-info a {
+    color: #339933;
+    cursor: pointer; }
+
+/* line 125, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+#user-info:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 21px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 26px solid #549943; }
+
+/* line 137, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+#settings-icon {
+  background: #339933;
+  color: #333;
+  padding-bottom: 5px;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0; }
+  /* line 145, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  #settings-icon a {
+    color: #333; }
+
+/************* MEDIA QUERIES **************/
+@media screen and (max-width: 600px) {
+  /* line 152, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #titulo {
+    display: none; }
+  /* line 156, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  #user-info {
+    margin-top: 20px; }
+  /* line 160, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar {
+    min-width: 100%; }
+  /* line 164, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text {
+    font-size: 14px; } }
+
+@media screen and (max-width: 768px) {
+  /* line 170, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #sigla {
+    padding-right: 0; }
+  /* line 174, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #descricao {
+    display: none; } }
+
+@media screen and (max-width: 900px) {
+  /* line 180, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #sigla {
+    font-size: 20px;
+    padding-right: 5px; }
+  /* line 185, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #titulo {
+    padding-left: 10px;
+    font-size: 9px; }
+  /* line 190, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info {
+    padding: 10px 0 0 20px; }
+  /* line 194, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #descricao {
+    font-size: 10px;
+    padding-right: 0; }
+  /* line 199, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #toolbar {
+    padding: 20px 40px 20px 40px;
+    width: 60%; } }
+
+@media screen and (max-width: 1100px) {
+  /* line 206, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #versao {
+    display: none; } }
+
+@media screen and (min-width: 2000px) {
+  /* line 212, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #sigla {
+    font-size: 34px;
+    padding-right: 5px; }
+  /* line 217, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #titulo {
+    font-size: 18px; }
+  /* line 221, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #descricao {
+    font-size: 24px; }
+  /* line 225, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .cabecalho #toolbar {
+    padding: 20px 40px 20px 40px;
+    width: 70%; }
+  /* line 230, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .app-info #versao {
+    display: none; }
+  /* line 234, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/cabecalho.scss */
+  .toolbar-text {
+    font-size: 24px; } }
+
+/*# sourceMappingURL=cabecalho.css.map */

@@ -1,0 +1,233 @@
+<article>
+	<titulo>
+	<i class="glyphicon glyphicon-menu-hamburger"></i> Botões</titulo>
+	
+	<p>Os botões são usados com as classes do Bootstrap 3 
+	(<a href="http://getbootstrap.com/css/#buttons" target="_blank">Ver tutorial completo</a>).</p>
+	
+	
+	
+	<subtitulo><span class="glyphicon glyphicon-ok"></span> Melhores Práticas de Uso</subtitulo>
+		<p>Botão comum:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><input type="submit" class="btn-default" value="Default"/></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-default">Nome do Botão&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Cancelar operações:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button>Cancelar</button></div>
+		<pre class="col-md-9"><code>&#60;button>Cancelar&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Botão Primário (cor oficial do TJSC):</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button class="btn-primary">Primário</button></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-primary">Primário&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Botão de Sucesso:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button class="btn-success">Sucesso</button></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-success">Sucesso&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Botão de Aviso:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button class="btn-warning">Aviso</button></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-warning">Aviso&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Botão de Info:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button class="btn-info">Info</button></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-info">Info&#60;/button></code></pre>
+	</div>
+	<hr>
+	
+	<p>Botão de Perigo:</p>
+	<div class="row">
+		<div class="col-md-3 text-center"><button class="btn-danger">Perigo</button></div>
+		<pre class="col-md-9"><code>&#60;button class="btn-danger">Perigo&#60;/button></code></pre>
+	</div>
+	<br>
+	
+	
+	<subtitulo><span class=" glyphicon glyphicon-ban-circle"></span> Desabilitados</subtitulo>
+	<p>Para desabilitar um botão basta colocar o atributo "disabled" dentro da tag "button".</p>
+	<br>
+	<pre><code>&#60;button disabled>Default&#60;/button></code></pre>
+	<br>
+	<button disabled>Default</button>
+	<button type="button" class="btn-success" disabled>Success</button>
+	<button type="button" class="btn-primary" disabled>Primary</button>
+	<button type="button" class="btn-info" disabled>Info</button>
+	<button type="button" class="btn-warning" disabled>Warning</button>
+	<button type="button" class="btn-danger" disabled>Danger</button>	
+	<br>
+	<br> 
+	
+	
+	
+	<subtitulo><span class="glyphicon glyphicon-triangle-right"></span> Tipos de botões</subtitulo>	
+	
+	
+	
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingOne">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeBot = !expandeBot" data-toggle="collapse" data-parent="#accordion" href="#collapseBotoes1" aria-expanded="FALSE" aria-controls="collapseOne">
+	         <span ng-class="{'glyphicon glyphicon-chevron-down': expandeBot == false, 
+								'glyphicon glyphicon-chevron-up': expandeBot == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Botão sem tipo
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseBotoes1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+	      <div class="panel-body">
+	      	<p>Botão clicável, sem nenhum elemento de ação.</p>
+	        <pre><code>&#60;button class="btn-deafult">Nome do Botão&#60;/button></code></pre>	        
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingTwo">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeBotButton = !expandeBotButton" data-toggle="collapse" data-parent="#accordion" href="#collapseBotoes2" aria-expanded="false" aria-controls="collapseTwo">
+	          <span ng-class="{'glyphicon glyphicon-chevron-down': expandeBotButton == false, 
+								'glyphicon glyphicon-chevron-up': expandeBotButton == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Botão de tipo "button"
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseBotoes2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	      <div class="panel-body">
+	      	<p>Usado para adicionar funções de scripts.</p>
+	        <pre><code>&#60;button type="button" class="btn-deafult">Nome do Botão&#60;/button></code></pre>     	
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingThree">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeBotSubmit = !expandeBotSubmit" data-toggle="collapse" data-parent="#accordion" href="#collapseBotoes3" aria-expanded="false" aria-controls="collapseThree">
+	          <span ng-class="{'glyphicon glyphicon-chevron-down': expandeBotSubmit == false, 
+								'glyphicon glyphicon-chevron-up': expandeBotSubmit == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Botão de tipo "submit"
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseBotoes3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	      <div class="panel-body">
+	      	<p>Envia todo o conteúdo do formulário, caso este possua uma "action".</p>
+	        <pre><code>&#60;button type="submit" class="btn-deafult">Nome do Botão&#60;/button></code></pre>	      	
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingFour">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeBotReset = !expandeBotReset" data-toggle="collapse" data-parent="#accordion" href="#collapseBotoes4" aria-expanded="false" aria-controls="collapseFour">
+	          <span ng-class="{'glyphicon glyphicon-chevron-down': expandeBotReset == false, 
+								'glyphicon glyphicon-chevron-up': expandeBotReset == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Botão de tipo "reset"
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseBotoes4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+	      <div class="panel-body">
+	      	<p>Apaga todo o conteúdo digitado nos campos, caso o usuário queira reescrevê-los.</p>
+	        <pre><code>&#60;button type="reset" class="btn-deafult">Nome do Botão&#60;/button></code></pre>	      		
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	
+	<subtitulo><span class="glyphicon glyphicon-list-alt"></span> Classes Adicionais</subtitulo>
+	
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="hOne">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeLarg = !expandeLarg" data-toggle="collapse" data-parent="#accordion" href="#cOne" aria-expanded="FALSE" aria-controls="cOne">
+	         <span ng-class="{'glyphicon glyphicon-chevron-down': expandeLarg == false, 
+								'glyphicon glyphicon-chevron-up': expandeLarg == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Largura
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="cOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hOne">
+	      <div class="panel-body">
+	        <p>
+				<button type="button" class="larg-xs">larg-xs</button>
+				<button type="button" class="larg-sm">larg-sm</button>
+				<button type="button" class="larg-md">larg-md</button>
+				<button type="button" class="larg-lg">larg-lg</button>
+			</p>
+			<br>
+			<p>Exemplo:</p>
+			<div class="row">
+				<div class="col-md-2"><button class="btn-danger larg-lg">Perigo!</button></div>
+				<pre class="col-md-10"><code>&#60;button class="btn-danger larg-lg">Perigo!&#60;/button></code></pre>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="hTwo">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeLargPag = !expandeLargPag" data-toggle="collapse" data-parent="#accordion" href="#cTwo" aria-expanded="false" aria-controls="cTwo">
+	          <span ng-class="{'glyphicon glyphicon-chevron-down': expandeLargPag == false, 
+								'glyphicon glyphicon-chevron-up': expandeLargPag == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Extende à largura da página
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="cTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hTwo">
+	      <div class="panel-body">
+	      	Em um grid system, respectivamente, um botão sem classe e um com a classe "larg-ex" que se extende a sua largura em 100%.	
+			<br><br>
+			<DIV class="row">
+				<div class="col-md-2" style="border-right: 1px solid #ccc; padding: 5px;">
+					<button type="button">Default</button>
+				</div>
+				<div class="col-md-4" style="border-right: 1px solid #ccc; padding: 5px;">
+					<button type="button" class="larg-ex">larg-ex</button>
+				</div>
+			</DIV>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="hThree">
+	      <h4 class="panel-title">
+	        <a class="collapsed" ng-click="expandeTamanho = !expandeTamanho" data-toggle="collapse" data-parent="#accordion" href="#cThree" aria-expanded="false" aria-controls="cThree">
+	          <span ng-class="{'glyphicon glyphicon-chevron-down': expandeTamanho == false, 
+								'glyphicon glyphicon-chevron-up': expandeTamanho == true}"
+						  style="font-size: 14px; font-weight: bold"></span> Tamanho
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="cThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hThree">
+	      <div class="panel-body">
+	      	<p>
+				<button type="button" class="btn-xs">btn-xs</button>
+				<button type="button" class="btn-sm">btn-sm</button>
+				<button type="button">Default</button>
+				<button type="button" class="btn-lg">btn-lg</button>
+			</p>
+			<br>
+			
+			<pre><code>&#60;button class="btn-lg">Nome do Botão&#60;/button></code></pre>	
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</article>

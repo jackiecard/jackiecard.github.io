@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/*****************************************************
+ *                     Buttons                       *
+ *****************************************************/
+/*****************************************************
+ *                     Cores                         *
+ *****************************************************/
+/********************* Palleta TJSC ******************/
+/******************* Cabecalho **********************/
+/********************* Formulário *******************/
+/*********************** Botões *********************/
+/********************* Tabelas **********************/
+/******************* Toastr Buttons ******************/
+/*****************************************************
+ *                   Tipography                      *
+ *****************************************************/
+/*************** Tamanhos de Fontes ******************/
+/* line 11, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+input[type="button"], input[type="reset"], input[type="submit"] {
+  margin: 0;
+  padding: 0; }
+
+/* line 16, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#F3F3F3, #d9d9d9);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#F3F3F3, #d9d9d9);
+  font-weight: 700;
+  color: #333;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3), 1px 1px 1px 0 rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  margin: 3px 1px;
+  padding: 0.5em 1em;
+  font-family: inherit;
+  font-size: 100%;
+  *font-size: 90%;
+  /*IE 6/7 - To reduce IE's oversized button text*/
+  *overflow: visible;
+  /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+  border: 1px solid #999;
+  /*IE 6/7/8*/
+  border: none transparent;
+  /*IE9*/
+  text-decoration: none;
+  /* Structure */
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 55, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#CCCCCC, #e6e6e6);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#CCCCCC, #e6e6e6); }
+
+/* line 61, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#339933, #39ac39);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#339933, #39ac39);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset; }
+
+/* line 67, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#fff, #f2f2f2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#fff, #f2f2f2);
+  color: #666666; }
+
+/* Firefox: Get rid of the inner focus border */
+/* line 74, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 79, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.lg-mini, input[type="button"].lg-mini, input[type="reset"].lg-mini, input[type="submit"].lg-mini {
+  padding: 0.5em 2px; }
+
+/* line 83, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.lg-pequeno, input[type="button"].lg-pequeno, input[type="reset"].lg-pequeno, input[type="submit"].lg-pequeno {
+  padding: 0.5em 10px; }
+
+/* line 87, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.lg-medio, input[type="button"].lg-medio, input[type="reset"].lg-medio, input[type="submit"].lg-medio {
+  padding: 0.5em 20px; }
+
+/* line 91, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.lg-grande, input[type="button"].lg-grande, input[type="reset"].lg-grande, input[type="submit"].lg-grande {
+  padding: 0.5em 40px; }
+
+/* line 95, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.mini, input[type="button"].mini, input[type="reset"].mini, input[type="submit"].mini {
+  font-size: 70%; }
+
+/* line 99, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.pequeno, input[type="button"].pequeno, input[type="reset"].pequeno, input[type="submit"].pequeno {
+  font-size: 85%; }
+
+/* line 103, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.medio, input[type="button"].medio, input[type="reset"].medio, input[type="submit"].medio {
+  font-size: 115%; }
+
+/* line 107, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.grande, input[type="button"].grande, input[type="reset"].grande, input[type="submit"].grande {
+  font-size: 145%; }
+
+/********************* Types ***********************/
+/* line 112, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.sucesso, input[type="button"].sucesso, input[type="reset"].sucesso, input[type="submit"].sucesso {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#339933, #39ac39);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#339933, #39ac39); }
+
+/* line 116, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.aviso, input[type="button"].aviso, input[type="reset"].aviso, input[type="submit"].aviso {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#c8dd22, #b4c71f);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#c8dd22, #b4c71f); }
+
+/* line 120, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.info, input[type="button"].info, input[type="reset"].info, input[type="submit"].info {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#429cea, #2b90e7);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#429cea, #2b90e7); }
+
+/* line 124, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.perigo, input[type="button"].perigo, input[type="reset"].perigo, input[type="submit"].perigo {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#CC3333, #b82e2e);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#CC3333, #b82e2e); }
+
+/********************* Hover ***********************/
+/* line 131, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.sucesso:hover, input[type="button"].sucesso:hover, input[type="reset"].sucesso:hover, input[type="submit"].sucesso:hover {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#339933, #40bf40);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#339933, #40bf40); }
+
+/* line 135, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.aviso:hover, input[type="button"].aviso:hover, input[type="reset"].aviso:hover, input[type="submit"].aviso:hover {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#c8dd22, #d3e44e);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#c8dd22, #d3e44e); }
+
+/* line 139, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.info:hover, input[type="button"].info:hover, input[type="reset"].info:hover, input[type="submit"].info:hover {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#429cea, #70b4ef);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#429cea, #70b4ef); }
+
+/* line 143, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.perigo:hover, [type="button"].perigo:hover, input[type="reset"].perigo:hover, input[type="submit"].perigo:hover {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), -webkit-linear-gradient(#CC3333, #d65c5c);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(#CC3333, #d65c5c); }
+
+/********************* Disabled ***********************/
+/* line 150, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.sucesso:disabled, input[type="button"].sucesso:disabled, input[type="reset"].sucesso:disabled, input[type="submit"].sucesso:disabled {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), -webkit-linear-gradient(#339933, #66cc66);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), linear-gradient(#339933, #66cc66);
+  color: #666666; }
+
+/* line 155, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.aviso:disabled, input[type="button"].aviso:disabled, input[type="reset"].aviso:disabled, input[type="submit"].aviso:disabled {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), -webkit-linear-gradient(#c8dd22, #deeb7a);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), linear-gradient(#c8dd22, #deeb7a);
+  color: #666666; }
+
+/* line 160, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.info:disabled, input[type="button"].info:disabled, input[type="reset"].info:disabled, input[type="submit"].info:disabled {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), -webkit-linear-gradient(#429cea, #9eccf4);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), linear-gradient(#429cea, #9eccf4);
+  color: #666666; }
+
+/* line 165, C:/desenvolvimento_luna/projetos/tjsc-showcase/src/main/webapp/lib/css/partials/buttons.scss */
+button.perigo:disabled, input[type="button"].perigo:disabled, input[type="reset"].perigo:disabled, input[type="submit"].perigo:disabled {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), -webkit-linear-gradient(#CC3333, #e08585);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 50%, transparent 80%), linear-gradient(#CC3333, #e08585);
+  color: #666666; }
+
+/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,86 @@
+-- PROJETO SASS TJSC ---------------------------------------------------------------------
+
+CSS/
+|
+|-- tjsc.scss                        # Arquivo Principal
+|-- _bootstrap.scss                  # Boostrap Imports
+|-- _bootstrap-compass.scss          # Compass Lib para Boostrap
+|-- _bootstrap-mincer.scss           # Mincer Lib para Boostrap
+|-- _bootstrap-sprockets.scss        # Sprockets Lib para Boostrap
+|
+|
+|-- fonts/
+|   |-- bootstrap                    # Glyphicons do Bootstrap
+|   |-- footable                     # Ícones do Plugin Footable
+|
+|-- vendor/
+|   |-- footable.core.css            # Plugin Footable
+|   |-- ngDialog.css                 # Plugin ngDialog
+|   |-- toastr.scss                  # Plugin Toastr
+|   |-- highlight.min.css            # Plugin Highlight
+|
+|
+|   |figures/
+|   |-- figures.scss                 # Todas as imagens do projeto
+|
+|
+|   |chosen/
+|   |-- bootstrap-chosen.scss        # Chosen Bootstrap
+|
+|
+|   |jquery-ui/
+|   |-- jquery.ui.core.scss          # Arquivo primário da lib do JQuery-UI
+|   |-- jquery.ui.all.scss           # Todas as funcionalidades da lib do JQuery-UI
+|
+|
+|   |boostrap-sass/                       
+|   |* Variáveis e funções *
+|   |--  variables
+|   |--  mixins
+|   
+|   |* Resets e Dependências *
+|   |--  normalize
+|   |--  print
+|   |--  glyphicons
+|   
+|   |* Core CSS *
+|   |--  scaffolding
+|   |--  type
+|   |--  code
+|   |--  grid
+|   |--  tables
+|   |--  forms
+|   |--  buttons
+|   
+|   |* Componentes *
+|   |--  component-animations
+|   |--  dropdowns
+|   |--  button-groups
+|   |--  input-groups
+|   |--  navs
+|   |--  navbar
+|   |--  breadcrumbs
+|   |--  pagination
+|   |--  pager
+|   |--  labels
+|   |--  badges
+|   |--  jumbotron
+|   |--  thumbnails
+|   |--  alerts
+|   |--  progress-bars
+|   |--  media
+|   |--  list-group
+|   |--  panels
+|   |--  responsive-embed
+|   |--  wells
+|   |--  close
+|   
+|   |* Componentes com Javascript *
+|   |--  modals
+|   |--  tooltip
+|   |--  popovers
+|   |--  carousel
+|   
+|   |* Classes Utilitárias *
+|   |--  utilities
+|   |--  responsive-utilities

@@ -1,0 +1,102 @@
+<titulo>Tratamento de Erros</titulo>
+
+<form class="row">
+	<label class="col-md-3">Nome: </label> 
+	<span class="col-md-9">
+		<input class="form-control" id="nome" ng-model="pessoa.nome" type="text" validator="required" placeholder="Nome Completo" />
+	</span>
+	
+	<label class="col-md-3">Email: </label> 
+	<span class="col-md-9">
+		<input email-tjsc 
+			   class="form-control" id="email" ng-model="email" type="text"/>
+	</span>
+	
+	<label class="col-md-3">CEP: </label> 
+	<span class="col-md-9">
+		<input cep 
+			   class="form-control" id="cep" ng-model="cep" type="text"/>
+	</span>
+	
+	<label class="col-md-3">CPF: </label> 
+	<span class="col-md-9">
+		<input cpf 
+			   class="form-control" id="cpf" ng-model="pessoa.cpf" type="text"/>
+	</span>
+	
+	<label class="col-md-3">CNPJ: </label> 
+	<span class="col-md-9">
+		<input cnpj 
+			   class="form-control" id="cnpj" type="text" ng-model="cnpj"/>
+	</span>
+	
+	<label class="col-md-3">Telefone: </label> 
+	<span class="col-md-9">
+		<input telefone 
+			   class="form-control" id="telefone" type="text" ng-model="telefone"/>
+	</span>
+    
+    <label class="col-md-3">Número do Processo: </label> 
+	<span class="col-md-9">
+		<input numero-processo 
+			   class="form-control" id="numProcesso" ng-model="numProcesso" type="text"/>
+	</span>
+	
+	<label class="col-md-3">Data de Nascimento: </label> 
+	<span class="col-md-9">
+	 <input bs-datepicker
+	 	    class="form-control calendar" ng-model="selectedDate" name="date" 
+	 	    data-date-format="dd/MM/yyyy"  type="text" placeholder="Data de Nascimento"/>
+    </span>
+    
+    <label class="col-md-3">Horário de trabalho: </label> 
+	<div class="col-md-9">
+		<div class="row">
+			<div class="col-md-5">
+		 		<input bs-timepicker
+		 	    	   class="form-control" size="8" ng-model="time" name="time"  type="text" placeholder="Início">
+		 	</div>
+			<div class="col-md-2 text-center" style="padding-top: 15px;"><span>à</span></div>
+			<div class="col-md-5">
+		 		<input bs-timepicker
+		 	    	   class="form-control" size="8" ng-model="time2" name="time2"  type="text" placeholder="Fim">
+		 	</div>
+	    </div>
+    </div>
+</form>  
+<br>      
+<div class="text-right">
+	<input type="reset" value="Apagar">
+	<button class="btn-primary" data-ng-click="savePessoa()">Enviar</button>
+</div>
+<br>
+
+
+
+<h4>Não pega CPF com 0 no primeiro número! -> Não é problema da máscara!</h4>
+
+<titulo>Lista de Pessoas</titulo>
+<table table-responsive class="table table-hover">
+	<thead>
+		<tr>
+			<th data-hide="phone">#</th>
+			<th>Nome</th>
+			<th data-hide="phone">CPF</th>
+			<th data-hide="phone">Nascimento</th>
+			<th>Ações</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="pessoa in lista">
+			<td><span data-ng-bind="pessoa.id"></span></td>
+			<td><span data-ng-bind="pessoa.nome"></span></td>
+			<td><span data-ng-bind="pessoa.cpf"></span></td>
+			<td><span data-ng-bind="pessoa.nascimento | date:'dd/MM/yyyy HH:mm'"></span></td>
+			<td><div class="text-right">
+					<button class="btn-sm" data-ng-click="updatePessoa(pessoa.id)">Alterar</button> 
+					<button class="btn-sm" data-ng-click="deletePessoa(pessoa.id)">Remover</button>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
