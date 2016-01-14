@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /home/jackiecard/jackiecard.github.io/demo/.htpasswd  
-require valid-user
