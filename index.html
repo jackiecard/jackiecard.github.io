@@ -11,7 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/application.css">
+        <link rel="stylesheet" href="sass/application.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <script src="js/modernizr-2.8.3.min.js"></script>
         <script src="js/jquery-1.11.3.min.js"></script>
@@ -90,20 +90,14 @@
                 
                 <span class="title"><i class="fa fa-wrench"></i><h2 class="desc"> Skills</h2></span>   
                 <section id="skills">
-                    <!-- 
-                        <p>This chart shows my prominent skills:</p>
-                        <div id="canvas-holder">
-                        <canvas id="chart-area"/>
-                        </div>    
-                    -->
                     <div class="slide">
-                        <div class="slide-desc">HTML & CSS</div>
+                        <div class="slide-desc">HTML & CSS <a href="#info1" rel="modal:open"><i class="fa fa-info-circle"></i></a></div>
                         <div class="pink" style="width: 60%">&nbsp;</div><div class="gray" style="width: 15%">&nbsp;</div>
                     </div>
                     <br>
                     
                     <div class="slide">
-                        <div class="slide-desc">Javascript</div>
+                        <div class="slide-desc">Javascript  <a href="#info2" rel="modal:open"><i class="fa fa-info-circle"></i></a></div>
                         <div class="pink" style="width: 50%">&nbsp;</div><div class="gray" style="width: 25%">&nbsp;</div>
                     </div>
                     <br>
@@ -115,19 +109,19 @@
                     <br>
                     
                     <div class="slide">
-                        <div class="slide-desc">Databases</div>
+                        <div class="slide-desc">Databases  <a href="#info3" rel="modal:open"><i class="fa fa-info-circle"></i></a></div>
                         <div class="pink" style="width: 35%">&nbsp;</div><div class="gray" style="width: 40%">&nbsp;</div>
                     </div>
                     <br>
                     
                     <div class="slide">
-                        <div class="slide-desc">Design</div>
+                        <div class="slide-desc">Design  <a href="#info4" rel="modal:open"><i class="fa fa-info-circle"></i></a></div>
                         <div class="pink" style="width: 25%">&nbsp;</div><div class="gray" style="width: 50%">&nbsp;</div>
                     </div>
                     <br>
                     
                     <div class="slide">
-                        <div class="slide-desc">Mobile</div>
+                        <div class="slide-desc">Mobile  <a href="#info5" rel="modal:open"><i class="fa fa-info-circle"></i></a></div>
                         <div class="pink" style="width: 40%">&nbsp;</div><div class="gray" style="width: 35%">&nbsp;</div>
                     </div>
                     <br>
@@ -161,5 +155,26 @@
   <input type="submit" value="Send">
 </form>
   </div>
+        
+        
+        <div id="info1" style="display:none;">
+                <p>HTML5 and Sass Preprocessor</p>
+        </div>
+        
+        <div id="info2" style="display:none;">
+                <p>AngularJS and JQuery</p>
+        </div>
+        
+        <div id="info3" style="display:none;">
+                <p>MySQL and Oracle</p>
+        </div>
+        
+        <div id="info4" style="display:none;">
+                Responsive Design Certificate (CodeSchool)
+        </div>
+        
+        <div id="info5" style="display:none;">
+                Apache Cordova
+        </div>
     </body>
 </html>
