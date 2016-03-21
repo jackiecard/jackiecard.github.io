@@ -24,12 +24,24 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="sass/application.css">
         <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/modernizr-2.8.3.min.js"></script>
-        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
         <script src="js/moments.min.js"></script>
         <script src="js/modal.min.js"></script>
         <script src="js/Chart.min.js"></script>
-        <script src="js/skills.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".img-container").on({
+                    mouseenter: function () {
+                       $(this).addClass("hover");
+                    },
+                    mouseleave:function () {
+                       $(this).removeClass("hover");
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -44,7 +56,7 @@
             <article>
                 <span class="title"><i class="fa fa-user"></i> <h2 class="desc">About me</h2></span>
                 <section>
-                    <p>I'm a Brazilian exchange student looking for a great experience in a summer internship of 2016.
+                    <p>I'm a Brazilian living in New Jersey. I'm looking for a great experience in a summer internship of 2016.
                     I'm passionate by user experience and front-end development.</p>
                     <p id="p-hide">If you wish to contact me for further information, <a href="#ex1" rel="modal:open">click here</a>.</p>
                 </section>
@@ -52,35 +64,102 @@
                 
                 <span class="title"><i class="fa fa-briefcase"></i> <h2 class="desc">Work History</h2></span>
                 <section>
+                    <div class="row">
+                    <div class="col-md-2">
+                    <a href="http://thoughtscloud.github.io/" target="_blank" class="img-container">
+                        <span class="img-text">Website</span>
+                        <img src="img/thoughts.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
+                    <h2 class="title-sec">Thoughts Cloud</h2>
+                    <sup class="title-desc">Personal project - 03/2016</sup><br>
+                    <span class="keywords"><b>Keywords:</b> BackboneJS, JQuery, Firebase</span>
+                    A web app that gets the user's text and tries to identify his/her mood, matching the words with a <a href="http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010" target="_blank">sentiment lexicon</a>. The background color changes according to the weight of positivity/negativity of the text.
+                        </div></div>
+                    <br><br>
                     
+                    
+                    <div class="row">
+                    <div class="col-md-2">
+                    <a href="http://deep-breath.github.io/" target="_blank" class="img-container">
+                        <span class="img-text">Website</span>
+                        <img src="img/db.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
                     <h2 class="title-sec">App Development with Unity</h2>
                     <sup class="title-desc">Civic App Challenge - New Jersey - 09/2015 to 11/2015</sup><br>
-                    Published the app “Deep Breath” developed on Unity at Amazon App Store and Windows Store. Check out the app's website <a href="http://deep-breath.github.io/" target="_blank">clicking here</a>.
-                    <br>
-                                        <br>
+                    <span class="keywords"><b>Keywords:</b> Unity, Hackathon, Adobe Photoshop</span>
+                    Deep Breath was developed as part the hackathon New Jersey Civic App, sponsored by AT&T. The app teaches the users how to practice breathing exercises and learning techniques to promote physical and mental relaxation.<Br>
+                    It was designed using Unity3D and its available at Amazon App Store and Windows Store.
+                    </div></div>
+                    <br><br>
                     
+                        <div class="row">
+                    <div class="col-md-2">
+                    <a href="#" target="_blank" class="img-container">
+                        
+                        <img src="img/fw3.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
                     <h2 class="title-sec">Framework Development</h2>
                     <sup class="title-desc">Court of Justice of Santa Catarina - 11/2014 to 07/2015</sup><br>
-                    Helped to create and test the third version of the framework used to develop web applications for the Court of Justice of Santa Catarina. The most important task was creating components based in <b>AngularJS</b> and <b>Twitter Bootstrap</b>.
-                    <br>
-                                        <br>
+                    <span class="keywords"><b>Keywords:</b> AngularJS, Twitter Bootstrap, Java2EE, JSON, Restful API</span>
+                    Framework Version 3 (FW3) was created for the Court of Justice of Santa Catarina to support medium and small applications developed by the institution. It was developed using AngularJS components, Twitter Bootstrap style and Java2EE services.<br>
 
+The FW3 was designed as a substitute of the previous framework based on Apache Flex.
+                    </div></div>
+                    <br><br>
+
+                    <div class="row">
+                    <div class="col-md-2">
+                    <a href="#" target="_blank" class="img-container">
+                        
+                        <img src="img/spge.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
                     <h2 class="title-sec">JavaEE Development</h2>
                     <sup class="title-desc">Vieira-Ishikawa Software - 08/2014 to 10/2014</sup><br>
-                    Concluded the first phase of the development of a SCADA system based on <b>Java Server Pages</b> and Twitter Bootstrap as part of a wind power management project.
-                    <br>
-                                        <br>
+                    <span class="keywords"><b>Keywords:</b> Java2EE, Oracle, Hibernate, Twitter Bootstrap</span>
+                    Wind forecast management system that was developed using Java Server Faces and Twitter Bootstrap. It's a web application that shows the forecast of the energy production of wind farm in a giving time. The application also provides means to regenerate charts based in the settings the user inputs.
+                    </div></div>
+                    <br><br>
+                    
+                        <div class="row">
+                    <div class="col-md-2">
+                    <a href="/go" target="_blank" class="img-container">
+                        <span class="img-text">Website</span>
+                        <img src="img/goportal.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
+                    <h2 class="title-sec">GoPortal Mobile</h2>
+                    <sup class="title-desc">Stockton University - 08/2015 to 11/2015</sup><br>
+                    <span class="keywords"><b>Keywords:</b> HTML, CSS, Academic Project</span>
+                    GoPortal Mobile introduces a prototype of a mobile version of the academic portal of Stockton University. It was presented for the System Analysis and Design course as a mobile-friendly interface implementation of the portal, containing relevant information for Stockton's students, such as everyday schedule and dining services. The prototype was developed using HTML and CSS.
+                    
+                    </div></div>
+                    <br><br>
+                    
+                        <div class="row">
+                    <div class="col-md-2">
+                    <a href="https://github.com/jackiecard/PetShopWeb" target="_blank" class="img-container">
+                        <span class="img-text">Github</span>
+                        <img src="img/petshop.jpg" class="img-project">
+                    </a></div>
+                    <div class="col-md-10">
+                    <h2 class="title-sec">Petshop Web</h2>
+                    <sup class="title-desc">Java Programming Course - 05/2014 to 09/2014</sup><br>
+                    <span class="keywords"><b>Keywords:</b> Java Server Faces, JPA, MySQL, CSS, Adobe Photoshop</span>
+                    This project is an web app developed for users to register its pets and request services, like bathing and grooming. It was developed using Java Server Faces and MySQL.
+Petshop Web was the final project of the Java Programming course I was taken and it joined every concept learned in this course.
+                    
+                    </div></div>
 
-                    <h2 class="title-sec">Network Monitoring</h2>
-                    <sup class="title-desc">Federal University of Santa Catarina - 07/2013 to 01/2014</sup><br>
-    Worked as network manager at the university in the beginning of the undergraduate program. Learned how a big network works and how to deal with panic.
                 </section>
                 <br>
                 
                 <span class="title"><i class="fa fa-graduation-cap"></i><h2 class="desc"> Education</h2></span>
                 <section>
-                    <h2 class="title-sec">Computer Science & Info Systems<br>
-    Brazilian Scientific Mobility Program</h2>
+                    <h2 class="title-sec">Computer Science & Info Systems</h2>
                     <sup class="title-desc">Stockton University - 08/2015 to 05/2016</sup><br>
     Participant of the greatest brazilian's  exchange program ever made, Science Without Borders. It's currently studying Information Systems at Stockton University of New Jersey until May of 2016.
                     <br>
