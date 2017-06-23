@@ -1,5 +1,7 @@
-*.scss
-*.css.map
-bourbon/
-grid/
-neat/
+# ignore all files starting with . or ~
+.*
+~*
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
