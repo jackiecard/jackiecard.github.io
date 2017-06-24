@@ -5,7 +5,7 @@
 }
 
 *{
-    outline-color: var(--link-color);
+    outline: none;
 }
 
 body{
@@ -69,24 +69,24 @@ article{
     margin-top: 50px;
 }
 
-nav #menu a,
+nav .menu a,
 nav #social a{
     text-decoration: none;
     font-size: 1.3em;
     line-height: 1.5em;
 }
 
-nav #menu{
+nav .menu{
     position: fixed;
     top: 10px;
     left: 18px;
 }
 
-nav #menu a{
+nav .menu a{
     display: block;
 }
 
-nav #menu-button{
+nav #burger-menu{
     overflow: hidden;
     position: fixed;
     top: 10px;
@@ -94,11 +94,6 @@ nav #menu-button{
     text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3),
                  1px 1px 5px rgba(0, 0, 0, 0.2),
                  1px 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-nav #menu-button:focus ~ #menu{
-    top: 50px;
-    visibility: visible;
 }
 
 nav #social{
@@ -250,7 +245,7 @@ input, #send-btn{
         width: 90%;
     }
 
-    nav #menu-button{
+    nav #burger-menu{
         display: block;
         background: none;
         border: 0;
@@ -259,13 +254,22 @@ input, #send-btn{
         outline: none;
     }
 
-    nav #menu{
+    nav .menu{
         visibility: hidden;
         transition: visibility .5s;
         top: 50px;
         text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3),
                      1px 1px 5px rgba(0, 0, 0, 0.2),
                      1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    nav .show{
+        top: 50px;
+        visibility: visible;
+    }
+
+    footer #contact-form{
+        margin-right: 20px;
     }
 }
 

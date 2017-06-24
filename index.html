@@ -40,8 +40,9 @@
   <body>
 
   <nav>
-      <button id="menu-button" class="icon-menu"></button>
-      <div id="menu">
+      <button id="burger-menu" class="icon-menu"></button>
+
+      <div class="menu">
           <a href="#summary" title="summary" class="icon-profile"></a>
           <a href="#experience" title="experience" class="icon-user-tie"></a>
           <a href="#academics" title="academics" class="icon-books"></a>
@@ -81,6 +82,7 @@
                           </h3>
                           <div class="description">
                               Pipz Automation is a robust marketing tool to manage the customer journey.
+                              <!-- TODO: deixar o click mais intuitivo -->
                               <blockquote>
                                   I worked as full-time, mostly with UX, creating components for a
                                   process management board and the development of a drag & drop editor for email campaigns.
@@ -252,11 +254,14 @@
                   </li>
               </ul>
           <article>
+
+          <!-- TODO: skills & aspirations -->
       </main>
 
       <footer id="contact" role="contact">
           <h2><i class="icon-envelop"></i> Contact</h2>
           <p>You can email me at <b>contact@jackiecardozo.com</b> or get this shortcut:</p>
+
           <form id="contact-form" action="mailto:contact@jackiecardozo.com">
               <label for="subject">@summary</label>
               <input type="text" title="subject" name="subject" id="subject" value=""/>

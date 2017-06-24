@@ -9,6 +9,12 @@ var addEventListenerToDescriptionDivs = function(divs){
     }
 }
 
+var addEventListenerToBurgerMenu = function(menu){
+    menu.addEventListener("touchstart", function(e) {
+        document.querySelector(".menu").classList.toggle("show")
+    }, false)
+}
+
 var toggleComment = function(targetElem, remove){
     if(targetElem){
         return remove ? targetElem.classList.remove("show") : targetElem.classList.add("show")
@@ -45,4 +51,5 @@ var addEventListenerToContactForm = function () {
 }
 
 addEventListenerToDescriptionDivs(document.getElementsByClassName("description"))
+addEventListenerToBurgerMenu(document.getElementById("burger-menu"))
 addEventListenerToContactForm()
