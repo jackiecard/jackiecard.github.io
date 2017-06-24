@@ -177,7 +177,7 @@ input, textarea{
 textarea{
     min-height: 50px;
     min-width: 200px;
-    max-width: 600px;
+    max-width: 900px;
 }
 
 input, #send-btn{
