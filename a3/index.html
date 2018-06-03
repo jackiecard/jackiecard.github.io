@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link media="all" rel="stylesheet" href="stylesheets/site.css">
+	<title>IRPF</title>
+</head>
+<body>
+	<div>
+		<div class="a3-container">
+    <header>
+    <img src="assets/header.png"/>
+</header>
+    <div class="wrapper">
+        <div class="menu">
+    <img src="assets/menu.png"/>
+</div>
+        <div class="content">
+            <div class="content-top">
+    <img src="assets/identificacao.png"/>
+</div>
+            <div class="content-bottom">
+    <div class="content-bottom__wrapper">
+        <div class="tabs">
+  <ul id="tabs-nav">
+    <li><a href="#tab1">Dados do Contribuinte</a></li>
+    <li><a href="#tab2">Endereço</a></li>
+    <li><a href="#tab3">Ocupação Principal</a></li>
+  </ul> <!-- END tabs-nav -->
+  <div id="tabs-content">
+    <div id="tab1" class="tab-content">
+      <form>
+        <div class="form-group">
+          <label for="name">Nome completo:</label>
+          <input type="text" class="form-control" id="name" name="name" />
+        </div>
+        <div class="row">
+          <div class="form-group col">
+            <label for="name">Data de Nascimento:</label>
+            <input type="date" class="form-control" id="dob" name="dob" />
+          </div>
+          <div class="form-group col">
+            <label for="name">Título Eleitoral:</label>
+            <input type="text" class="form-control" id="titulo" name="titulo" />
+          </div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Possue doença grave ou deficiência física ou mental.</label>
+        </div>
+        <input type="button" class="next first btn btn-primary" value="Próximo ➝" />
+      </form>
+    </div>
+    <div id="tab2" class="tab-content">
+      <form id="residence">
+    <div class="form-label">Resido em:</div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="option1"  onchange="valueChanged('brasil')">
+      <label class="form-check-label" for="inlineRadio1">Brasil</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" onchange="valueChanged('exterior')">
+      <label class="form-check-label" for="inlineRadio2">Exterior</label>
+    </div>
+  </form>
+
+  <form class="forms" id="residence-brasil">
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="cep">CEP:</label>
+        <input type="text" class="form-control" id="cep" name="cep" />
+      </div>
+      <div class="form-group col">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" class="form-control" id="logradouro" name="logradouro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-2">
+        <label for="numero">Número:</label>
+        <input type="text" class="form-control" id="numero" name="numero" />
+      </div>
+      <div class="form-group col-3">
+        <label for="complemento">Complemento:</label>
+        <input type="text" class="form-control" id="complemento" name="complemento" />
+      </div>
+      <div class="form-group col">
+        <label for="bairro">Bairro:</label>
+        <input type="text" class="form-control" id="bairro" name="bairro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-2">
+        <label for="uf">UF</label>
+        <select id="uf" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col">
+        <label for="city">Município</label>
+        <select id="city" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="telefone">Telefone:</label>
+        <input type="text" class="form-control" id="telefone" name="telefone" />
+      </div>
+      <div class="form-group col-3">
+        <label for="celular">Celular:</label>
+        <input type="text" class="form-control" id="celular" name="celular" />
+      </div>
+      <div class="form-group col">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" />
+      </div>
+    </div>
+    <input type="button" class="next second btn btn-primary" value="Próximo ➝" />
+  </form>
+
+
+
+  <form class="forms" id="residence-exterior">
+    <div class="row">
+      <div class="form-group col">
+        <label for="cpf-procurador">CPF do procurador residente no Brasil:</label>
+        <input type="text" class="form-control" id="cpf-procurador" name="cpf-procurador" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="numero">Número:</label>
+        <input type="text" class="form-control" id="numero" name="numero" />
+      </div>
+      <div class="form-group col">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" class="form-control" id="logradouro" name="logradouro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="country">País</label>
+        <select id="country" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col">
+        <label for="city">Cidade:</label>
+        <input type="text" class="form-control" id="city" name="city" />
+      </div>
+      <div class="form-group col-2">
+        <label for="code">Código Postal:</label>
+        <input type="text" class="form-control" id="code" name="code" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="telefone">Telefone:</label>
+        <input type="text" class="form-control" id="telefone" name="telefone" />
+      </div>
+      <div class="form-group col-3">
+        <label for="celular">Celular:</label>
+        <input type="text" class="form-control" id="celular" name="celular" />
+      </div>
+      <div class="form-group col">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" />
+      </div>
+    </div>
+    <input type="submit" class="next second btn btn-primary" value="Próximo ➝" />
+  </form>
+
+<script>
+  $('#residence-exterior').hide();
+
+  function valueChanged(val){
+    console.log(val);
+    $('.forms').hide();
+    $('#residence-' + val).show();
+    console.log($('#residence-' + val));
+  }
+</script>
+    </div>
+    <div id="tab3" class="tab-content">
+      <div>
+        <label for="validationTooltipUsername">Natureza da ocupação:</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Natureza da ocupação" aria-describedby="validationTooltipUsernamePrepend" required>
+          
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend"><img class="search-icon" src="assets/search.png"/></span>
+          </div>
+      </div>
+      <br>
+      <div>
+        <label for="validationTooltipUsername">Ocupação principal:</label>
+        <div class="input-group">
+          
+          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Ocupação principal" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend"><img class="search-icon" src="assets/search.png"/></span>
+          </div>
+      </div>
+  </div> <!-- END tabs-content -->
+</div> <!-- END tabs -->
+
+
+<script>
+
+$(document).ready(function(){
+    console.log('sasd');
+    // Show the first tab and hide the rest
+    $('#tabs-nav li:nth-child(1)').addClass('active');
+    $('.tab-content').hide();
+    $('.tab-content:nth-child(1)').show();
+
+    // Click function
+    $('#tabs-nav li').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $(this).addClass('active');
+      $('.tab-content').hide();
+      
+      var activeTab = $(this).find('a').attr('href');
+        $(activeTab).show();
+      return false;
+    });
+
+    $('.first').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $('#tabs-nav li:nth-child(2)').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:nth-child(2)').show();
+      console.log('first', $('#tabs-nav li'));
+    });
+
+    $('.second').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $('#tabs-nav li:nth-child(3)').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:nth-child(3)').show();
+      console.log('second', $('#tabs-nav li'));
+    });
+});
+    
+</script>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+	</div>
+</body>
+</html>
