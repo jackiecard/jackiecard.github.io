@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.min.js" integrity="sha256-yk0bgsBLh1w6ccU08D4Q8IH1Z6brGEjkSzR0RmffV9s=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js" integrity="sha256-u7MY6EG5ass8JhTuxBek18r5YG6pllB9zLqE4vZyTn4=" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.min.css" integrity="sha256-4eEoTUtGur3gkGASnhHMzZySWq3weUlBoqlHAJ3nefc=" crossorigin="anonymous" />	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link media="all" rel="stylesheet" href="../../stylesheets/site.css">
+	<title>IRPF</title>
+</head>
+<body>
+	<div>
+		<div class="content-bottom">
+    <div class="content-bottom__wrapper">
+        <div class="tabs">
+  <ul id="tabs-nav">
+    <li><a href="#tab1">Dados do Contribuinte</a></li>
+    <li><a href="#tab2">Endereço</a></li>
+    <li><a href="#tab3">Ocupação Principal</a></li>
+  </ul> <!-- END tabs-nav -->
+  <div id="tabs-content">
+    <div id="tab1" class="tab-content">
+      <form>
+        <div class="form-group">
+          <label for="nome-completo">Nome completo:</label>
+          <input type="text" class="form-control" id="nome-completo" name="nome-completo" />
+        </div>
+        <div class="row">
+          <div class="form-group col">
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" class="form-control" id="dob" name="dob" />
+          </div>
+          <div class="form-group col">
+            <label for="titulo">Título Eleitoral:</label>
+            <input type="text" class="form-control" id="titulo" name="titulo" />
+          </div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Possue doença grave ou deficiência física ou mental.</label>
+        </div>
+      <input type="button" class="next first btn btn-primary" value="Próximo ➝" />
+      </form>
+    </div>
+    <div id="tab2" class="tab-content">
+      <form id="residence">
+    <div class="form-label">Resido em:</div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="option1"  onchange="valueChanged('brasil')">
+      <label class="form-check-label" for="inlineRadio1">Brasil</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" onchange="valueChanged('exterior')">
+      <label class="form-check-label" for="inlineRadio2">Exterior</label>
+    </div>
+  </form>
+
+<form class="forms" id="residence-brasil">
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="cep">CEP:</label>
+        <input type="text" class="form-control cep" id="cep" name="cep" />
+      </div>
+      <div class="form-group col">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" class="form-control" id="logradouro" name="logradouro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-2">
+        <label for="numero">Número:</label>
+        <input type="text" class="form-control numero" id="numero" name="numero" />
+      </div>
+      <div class="form-group col-3">
+        <label for="complemento">Complemento:</label>
+        <input type="text" class="form-control" id="complemento" name="complemento" />
+      </div>
+      <div class="form-group col">
+        <label for="bairro">Bairro:</label>
+        <input type="text" class="form-control" id="bairro" name="bairro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-2">
+        <label for="uf">UF</label>
+        <select id="uf" class="form-control">
+          <option selected>SC</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col">
+        <label for="city">Município</label>
+        <select id="city" class="form-control">
+          <option selected>Florianópolis</option>
+          <option>São José</option>
+          <option>...</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="telefone">Telefone:</label>
+        <input type="text" class="form-control telefone" id="telefone" name="telefone" />
+      </div>
+      <div class="form-group col-3">
+        <label for="celular">Celular:</label>
+        <input type="text" class="form-control celular" id="celular" name="celular" />
+      </div>
+      <div class="form-group col">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control email" id="email" name="email" />
+      </div>
+    </div>
+    <input type="button" class="next second btn btn-primary" value="Próximo ➝" />
+  </form>
+
+
+
+  <form class="forms" id="residence-exterior">
+    <div class="row">
+      <div class="form-group col">
+        <label for="cpf-procurador">CPF do procurador residente no Brasil:</label>
+        <input type="text" class="form-control" id="cpf-procurador" name="cpf-procurador" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="numero">Número:</label>
+        <input type="text" class="form-control" id="numero" name="numero" />
+      </div>
+      <div class="form-group col">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" class="form-control" id="logradouro" name="logradouro" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="country">País</label>
+        <select id="country" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col">
+        <label for="city">Cidade:</label>
+        <input type="text" class="form-control" id="city" name="city" />
+      </div>
+      <div class="form-group col-2">
+        <label for="code">Código Postal:</label>
+        <input type="text" class="form-control" id="code" name="code" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-3">
+        <label for="telefone">Telefone:</label>
+        <input type="text" class="form-control telefone" id="telefone" name="telefone" />
+      </div>
+      <div class="form-group col-3">
+        <label for="celular">Celular:</label>
+        <input type="text" class="form-control celular" id="celular" name="celular" />
+      </div>
+      <div class="form-group col">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control email" id="email" name="email" />
+      </div>
+    </div>
+    <input type="button" class="next second btn btn-primary" value="Próximo ➝" />
+  </form>
+
+<script>
+  $('#residence-exterior').hide();
+
+  function valueChanged(val){
+    console.log(val);
+    $('.forms').hide();
+    $('#residence-' + val).show();
+    console.log($('#residence-' + val));
+  }
+
+    $('.cep').mask('00.000-000');
+    $('.numero').mask('00000');
+    $('.telefone').mask('(00)0000-0000');
+    $('.celular').mask('(00)0000-0000');
+</script>
+    </div>
+    <div id="tab3" class="tab-content">
+      <div>
+        <label for="natureza">Natureza da ocupação:</label>
+          <select class="my_select_box" id="natureza" data-placeholder="Select Your Options">
+            <option value="1" selected>Procurar</option>
+            <option value="4">Empregado de empresa do setor privado, exceto de instituições financeiras - 01</option>
+            <option value="2">Empregado de instituições financeiras públicas e privadas - 02</option>
+            <option value="3">Empregado ou contratado de organismo internacional ou de organização não-governamental - 03</option>
+          </select>
+        <br>
+        <br>
+        <br>
+          <label for="ocupacao">Ocupação principal:</label>
+          <select class="my_select_box" id="ocupacao" data-placeholder="Select Your Options">
+            <option value="1" selected>Procurar</option>
+            <option value="4">Professor do ensino superior - 294</option>
+            <option value="2">Jornalista e repórter - 261</option>
+            <option value="3">Técnico em informática - 317</option>
+          </select>
+      </div>
+  </div> <!-- END tabs-content -->
+</div> <!-- END tabs -->
+
+
+<script>
+  $(document).ready(function(){
+    console.log('sasd');
+    // Show the first tab and hide the rest
+    $('#tabs-nav li:nth-child(1)').addClass('active');
+    $('.tab-content').hide();
+    $('.tab-content:nth-child(1)').show();
+
+    // Click function
+    $('#tabs-nav li').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $(this).addClass('active');
+      $('.tab-content').hide();
+      
+      var activeTab = $(this).find('a').attr('href');
+        $(activeTab).show();
+      return false;
+    });
+
+    $('.first').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $('#tabs-nav li:nth-child(2)').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:nth-child(2)').show();
+      console.log('first', $('#tabs-nav li'));
+    });
+
+    $('.second').click(function(){
+      $('#tabs-nav li').removeClass('active');
+      $('#tabs-nav li:nth-child(3)').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:nth-child(3)').show();
+      console.log('second', $('#tabs-nav li'));
+    });
+
+    $('#titulo').mask('0000 0000 0000');
+
+    $('#natureza').chosen({
+      no_results_text: "Oops, nothing found!",
+      width: "60%"
+    });
+
+
+    $('#ocupacao').chosen({
+      no_results_text: "Oops, nothing found!",
+      width: "60%"
+    });
+  });
+</script>
+    </div>
+</div>
+	</div>
+	<div class="simulacao alert alert-success" role="alert">
+		Simulação finalizada. Obrigada por sua participação!
+	</div>
+	<script>
+		$('.simulacao').hide();
+	</script>
+</body>
+</html>

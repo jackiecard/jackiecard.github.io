@@ -1,0 +1,157 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.min.js" integrity="sha256-yk0bgsBLh1w6ccU08D4Q8IH1Z6brGEjkSzR0RmffV9s=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js" integrity="sha256-u7MY6EG5ass8JhTuxBek18r5YG6pllB9zLqE4vZyTn4=" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.min.css" integrity="sha256-4eEoTUtGur3gkGASnhHMzZySWq3weUlBoqlHAJ3nefc=" crossorigin="anonymous" />	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link media="all" rel="stylesheet" href="../../stylesheets/site.css">
+	<title>IRPF</title>
+</head>
+<body>
+	<div>
+		<div class="a3-container">
+    <header>
+    <img src="/assets/header.png"/>
+</header>
+    <div class="wrapper">
+        <div class="menu">
+    <img src="/assets/menu.png"/>
+    <div class="menu__options">
+        <img src="/assets/menu-options.png"/>
+        <a href="/components/preview/site" class="link link-1"></a>
+        <a href="/components/preview/recebimentos" class="link link-2"></a>
+        <a href="/components/preview/pendencias"  data-toggle="modal" data-target="#exampleModal" class="link link-3"></a>
+        <a href="/components/preview/entregar" class="link link-4"></a>
+    </div>
+    <a href="#" data-toggle="modal" data-target="#exampleModal2" class="link link-5"></a>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pendências</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Não foram encontradas pendências na declaração.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="pendencias-btn btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entregar declaração</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Declaração entregue com sucesso!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="finalizado-btn btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.pendencias-btn').click(function(){
+    window.location = '/components/preview/entregar';
+  });
+
+  $('.finalizado-btn').click(function(){
+    setTimeout(function(){
+      $('.simulacao').show();
+    }, 1000);
+
+    setTimeout(function(){
+      $('.simulacao').hide();
+    }, 8000);
+  });
+</script>
+        <div class="content">
+            <div class="content-top">
+    <img src="/assets/identificacao.png"/>
+</div>
+            <div class="content-bottom">
+                <div class="content-bottom__wrapper">
+                    <div class="entregar-declaracao">
+
+    <img class="entregar-declaracao__bg" src="/assets/entregar.png"/>
+
+     <div class="entregar-declaracao__form">
+        <form>
+            <div class="form-group">
+                <label for="banco">Banco:</label>
+                <select class="my_select_box" id="banco" data-placeholder="Select Your Options">
+                    <option value="1" selected>Procurar</option>
+                    <option value="2">Banco do Brasil - 01</option>
+                    <option value="2">Caixa Econômica Federal - 02</option>
+                    <option value="2">Banco Santander - 03</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-4">
+                    <label for="agencia">Agência:</label>
+                    <input type="text" class="form-control" id="agencia" name="agencia" />
+                </div>
+
+                <div class="form-group col">
+                    <label for="conta">Conta:</label>
+                    <input type="text" class="form-control" id="conta" name="conta" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('#banco').chosen({
+            no_results_text: "Oops, nothing found!",
+            width: "60%"
+        });
+        $('#agencia').mask('0000-0');
+        $('#conta').mask('0000000000');
+    });
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	</div>
+	<div class="simulacao alert alert-success" role="alert">
+		Simulação finalizada. Obrigada por sua participação!
+	</div>
+	<script>
+		$('.simulacao').hide();
+	</script>
+</body>
+</html>

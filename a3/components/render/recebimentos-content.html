@@ -1,0 +1,77 @@
+
+
+<div class="recebimentos-content">
+
+    <img class="recebimentos-content__bg" src="/assets/recebimentos.png"/>
+    <img class="recebimentos-content__bg2" src="/assets/recebimentos2.png"/>
+
+    <div class="recebimentos-content__form">
+        <form>
+            <div class="form-group">
+                <label for="cpf-cnpj">CPF/CNPJ da principal fonte pagadora:</label>
+                <input type="text" class="form-control" id="cpf-cnpj" name="cpf-cnpj" />
+            </div>
+
+            <div class="form-group">
+                <label for="nome-fonte">Nome da fonte pagadora:</label>
+                <input type="text" class="form-control" id="nome-fonte" name="nome-fonte" />
+            </div>
+
+            <div class="form-group">
+                <label for="rendimentos-pj">Rendimentos recebidos de pessoa jurídica:</label>
+                <input type="text" class="form-control currency" id="rendimentos-pj" name="rendimentos-pj" />
+            </div>
+
+            <div class="form-group">
+                <label for="contribuicao">Contribuição previdenciária:</label>
+                <input type="text" class="form-control currency" id="contribuicao" name="contribuicao" />
+            </div>
+
+            <div class="form-group">
+                <label for="imposto-retido">Imposto retido na fonte:</label>
+                <input type="text" class="form-control currency" id="imposto-retido" name="imposto-retido" />
+            </div>
+
+            <div class="form-group">
+                <label for="13-salario">13° salário:</label>
+                <input type="text" class="form-control currency" id="13-salario" name="13-salario" />
+            </div>
+
+            <div class="form-group">
+                <label for="ir-13-salario">IRRF sobre o 13° salário:</label>
+                <input type="text" class="form-control currency" id="ir-13-salario" name="ir-13-salario" />
+            </div>
+
+            <input type="button" class="recebimentos-content__enviar btn btn-primary" value="Ok" />
+            <input type="button" class="recebimentos-content__cancelar btn btn-secondary" value="Cancelar" />
+        </form>
+    </div>
+
+    <a href="#" class="recebimentos-content__novo"></a>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.recebimentos-content__form').hide();
+        $('.recebimentos-content__bg2').hide();
+
+        $('.recebimentos-content__novo').click(function(){
+            $('.recebimentos-content__bg').hide();
+            $('.recebimentos-content__bg2').hide();
+            $('.recebimentos-content__form').show();
+        });
+
+        $('.recebimentos-content__cancelar').click(function(){
+            $('.recebimentos-content__bg').show();
+            $('.recebimentos-content__form').hide();
+        });
+
+        $('.recebimentos-content__enviar').click(function(){
+            $('.recebimentos-content__bg2').show();
+            $('.recebimentos-content__form').hide();
+        });
+
+        $('#cpf-cnpj').mask('000.000.000-00');
+        $('.currency').mask("#.##0,00", {reverse: true});
+    });
+</script>

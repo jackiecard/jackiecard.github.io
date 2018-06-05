@@ -401,10 +401,11 @@ body {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
-  background-image: url("../assets/ubuntu.png");
+  background-image: url("/assets/ubuntu.png");
   background-size: cover; }
 
 .a3-container {
+  width: 1200px;
   border: 1px solid #929daa;
   margin: 20px auto;
   margin-left: 50px; }
@@ -426,6 +427,24 @@ a,
 a:visited {
   text-decoration: none;
   color: #004c79; }
+
+.content-bottom {
+  width: 100%;
+  height: 535px;
+  font-size: 0.75em;
+  color: #4e4f4f;
+  padding: 10px;
+  background-color: #f1f5f9;
+  margin-top: -5px;
+  border-left: 1px solid #adafb1; }
+  .content-bottom__wrapper {
+    height: 100%;
+    overflow: scroll; }
+
+.simulacao {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; }
 
 #residence {
   padding-bottom: 20px; }
@@ -452,6 +471,19 @@ a:visited {
   width: 100%; }
   .content-top img {
     width: 100%; }
+
+.entregar-declaracao {
+  position: relative;
+  margin-top: -10px; }
+  .entregar-declaracao img {
+    width: 877px; }
+  .entregar-declaracao__form {
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    height: 110px;
+    background: #fff;
+    width: 380px; }
 
 footer {
   color: #fff;
@@ -489,14 +521,14 @@ footer {
               border-bottom: 1px solid #fff; }
               footer .wrapper .connect .links li:last-child a:after {
                 content: '';
-                background-image: url("../assets/phone-icon.png");
+                background-image: url("/assets/phone-icon.png");
                 background-size: cover;
                 width: 15px;
                 height: 18px;
                 margin-left: 5px;
                 position: absolute; }
       footer .wrapper .connect .social {
-        background: url("../assets/facebook.png");
+        background: url("/assets/facebook.png");
         background-size: contain;
         width: 273px;
         height: 149px; }
@@ -544,7 +576,7 @@ footer {
           border-bottom: 2px solid #fff; }
           footer .wrapper .connect .links li:last-child a:after {
             content: '';
-            background-image: url("../assets/phone-icon.png");
+            background-image: url("/assets/phone-icon.png");
             background-size: cover;
             width: 40px;
             height: 51px; }
@@ -575,9 +607,62 @@ header {
 
 .menu {
   width: 300px;
-  float: left; }
+  float: left;
+  position: relative; }
   .menu img {
     width: 100%; }
+  .menu__options {
+    position: absolute;
+    top: 0;
+    width: 292px;
+    height: 381px;
+    overflow: scroll; }
+    .menu__options::-webkit-scrollbar {
+      -webkit-appearance: none; }
+    .menu__options::-webkit-scrollbar:vertical {
+      width: 11px; }
+    .menu__options::-webkit-scrollbar:horizontal {
+      height: 11px; }
+    .menu__options::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white;
+      /* should match background, can't be transparent */
+      background-color: rgba(0, 0, 0, 0.5); }
+    .menu__options::-webkit-scrollbar-track {
+      background-color: #fff;
+      border-radius: 8px; }
+  .menu .link {
+    position: absolute;
+    width: 270px;
+    height: 30px; }
+    .menu .link-1 {
+      top: 99px; }
+    .menu .link-2 {
+      top: 179px; }
+    .menu .link-3 {
+      top: 600px; }
+    .menu .link-4 {
+      top: 910px; }
+    .menu .link-5 {
+      bottom: 10px;
+      left: 10px; }
+
+.recebimentos-content {
+  position: relative;
+  margin-top: -10px; }
+  .recebimentos-content img {
+    width: 877px; }
+  .recebimentos-content__novo {
+    position: absolute;
+    width: 97px;
+    height: 30px;
+    bottom: 17px;
+    right: 200px; }
+  .recebimentos-content__form {
+    background: #fff;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc; }
 
 .tabs {
   background: #fff;
@@ -610,3 +695,7 @@ header {
         right: 10px; }
   .tabs .search-icon {
     width: 30px; }
+  .tabs #tab3 label {
+    display: block; }
+    .tabs #tab3 label:nth-child(2) {
+      padding-top: 20px; }
