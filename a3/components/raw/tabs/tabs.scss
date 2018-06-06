@@ -2,7 +2,7 @@
     background: #fff;
     height: 100%;
 
-    ul{
+    ul:first-child{
         width: 100%;
         margin: 0;
         padding: 0;
@@ -53,5 +53,9 @@
                 padding-top: 20px;
             }
         }
+    }
+
+    .active-result{
+        width: 100%;
     }
 }

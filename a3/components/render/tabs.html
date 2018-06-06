@@ -72,16 +72,17 @@
       <div class="form-group col-2">
         <label for="uf">UF</label>
         <select id="uf" class="form-control">
-          <option selected>SC</option>
-          <option>...</option>
+          <option value="0" selected>Selecionar</option>
+          <option value="1">SC</option>
+          <option value="2">SP</option>
         </select>
       </div>
       <div class="form-group col">
         <label for="city">Município</label>
         <select id="city" class="form-control">
-          <option selected>Florianópolis</option>
-          <option>São José</option>
-          <option>...</option>
+          <option value="0" selected>Selecionar</option>
+          <option value="1">Florianópolis</option>
+          <option value="2">São José</option>
         </select>
       </div>
     </div>
@@ -169,6 +170,15 @@
     $('.numero').mask('00000');
     $('.telefone').mask('(00)0000-0000');
     $('.celular').mask('(00)0000-0000');
+
+    $('.cep').on('change', function(e){
+      if($('.cep').val().length === 10){
+        $('#logradouro').val('Campus Reitor João David Ferreira Lima');
+        $('#bairro').val('Trindade');
+        $('#uf').val(1);
+        $('#city').val(1);
+      }
+    });
 </script>
     </div>
     <div id="tab3" class="tab-content">
@@ -233,14 +243,13 @@
     $('#titulo').mask('0000 0000 0000');
 
     $('#natureza').chosen({
-      no_results_text: "Oops, nothing found!",
-      width: "60%"
+      no_results_text: "Não foram encontrado resultados.",
+      width: "40%"
     });
 
-
     $('#ocupacao').chosen({
-      no_results_text: "Oops, nothing found!",
-      width: "60%"
+      no_results_text: "Não foram encontrado resultados.",
+      width: "40%"
     });
   });
 </script>

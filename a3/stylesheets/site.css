@@ -667,13 +667,13 @@ header {
 .tabs {
   background: #fff;
   height: 100%; }
-  .tabs ul {
+  .tabs ul:first-child {
     width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between; }
-    .tabs ul li {
+    .tabs ul:first-child li {
       list-style-type: none;
       font-weight: bold;
       font-size: 1em;
@@ -681,7 +681,7 @@ header {
       padding: 20px 20px 10px 20px;
       text-align: center;
       border-bottom: 3px solid #f1f5f9; }
-      .tabs ul li.active {
+      .tabs ul:first-child li.active {
         border-bottom: 3px solid #004c79; }
   .tabs #tabs-content {
     padding: 20px;
@@ -699,3 +699,5 @@ header {
     display: block; }
     .tabs #tab3 label:nth-child(2) {
       padding-top: 20px; }
+  .tabs .active-result {
+    width: 100%; }
