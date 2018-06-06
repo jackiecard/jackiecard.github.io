@@ -1,0 +1,177 @@
+$primary-color: #03b2ad;
+
+footer{    
+    color: #fff;
+    min-height: 300px;
+    background: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    min-height: 400px;
+
+    .wrapper{
+        width: 80%;
+        position: relative;
+
+        .connect{
+            display: flex;
+            justify-content: space-between;
+
+            .links{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;    
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+
+                li{
+                    margin: 12px 0;
+
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+
+                    &:first-child{
+                        margin: 0;
+                    }
+
+                    &:last-child{
+                        margin: 8px 0;
+
+                        a{
+                            border-bottom: 1px solid #fff;
+
+                            &:after{
+                                content: '';
+                                background-image: url('/assets/phone-icon.png');
+                                background-size: cover;
+                                width: 15px;
+                                height: 18px;
+                                margin-left: 5px;
+                                position: absolute;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .social{
+                background: url('/assets/facebook.png');
+                background-size: contain;
+                width: 273px;
+                height: 149px;
+            }
+        }
+
+        .copyright{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 70px;
+
+            p{
+                text-align: center;
+            }
+
+            .logo{
+                text-align: right;
+                width: 33%;
+            }
+        }
+
+        .plus{
+            display: none;
+            position: absolute;
+            top: 35px;
+            right: 20px;
+            border: 3px solid #fff;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+
+            &:before{
+                content: '+';
+                font-size: 1.5em;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 52px;
+                top: 31px;
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 560px)  {
+
+    footer{
+        font-size: 3em;    
+        min-height: 650px;
+
+        .wrapper{
+            .connect{
+                .links{
+                    -webkit-column-count: 1;
+                    -moz-column-count: 1;
+                    column-count: 1;
+
+                    li{
+                        display: none;
+
+                        &:last-child,
+                        &:nth-last-child(2){
+                            display: block;
+                            margin: 40px 0;
+                        }
+
+                        &:last-child{
+                            a{
+                                border-bottom: 2px solid #fff;
+    
+                                &:after{
+                                    content: '';
+                                    background-image: url('/assets/phone-icon.png');
+                                    background-size: cover;
+                                    width: 40px;
+                                    height: 51px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .social{
+                    display: none;
+                }
+            }
+
+            .copyright{
+                display: block;
+
+                p{
+                    width: 660px;
+                    margin: 50px auto;
+                    font-size: .7em;
+                    line-height: 1.3em;
+                }
+
+                .logo{
+                    width: 100%;
+                    text-align: center;
+
+                    img{
+                        width: 40%;
+                    }
+                }
+            }
+
+            .plus{
+                display: block;
+            }
+        }
+    }
+}
