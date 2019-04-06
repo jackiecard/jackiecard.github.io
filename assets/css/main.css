@@ -1,0 +1,277 @@
+:root {
+  --content-color: #bfc4cc;
+  --highlight-color: #98C17B;
+  --link-color: #D09A6A;
+  --heading-color: #D36972;
+  --border-color: rgba(255, 255, 255, .1);
+  --border-color-medium: rgba(255, 255, 255, .4);
+  --bg-color: #282C34;
+}
+
+.light{
+  --content-color: #333;
+  --highlight-color: #44963a;
+  --link-color: #D09A6A;
+  --border-color: rgba(255, 255, 255, .1);
+  --border-color-medium: rgba(255, 255, 255, .4);
+  --bg-color: #fff;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.7em;
+  background-color: var(--bg-color);
+  color: var(--content-color);
+  transition: background-color 1s ease-in-out;
+}
+
+body .back-btn {
+  position: fixed;
+  opacity: 0;
+  height: 0;
+  top: 20px;
+  pointer-events: none;
+  transition: opacity 1s ease-in-out;
+}
+
+body.back-effect .back-btn {
+  opacity: 1;
+  height: auto;
+  pointer-events: auto;
+}
+
+body .mode-btn {
+  margin-left: 0;
+  transition: margin-left 1s ease-in-out;
+}
+
+body.back-effect .mode-btn {
+  margin-left: 35px;
+}
+
+a {
+  color: var(--link-color);
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  header,
+  main,
+  footer {
+    width: 70%;
+  }
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+header #profile {
+  background: url("../images/profile.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+header .highlight {
+  margin: auto;
+}
+
+header .highlight img {
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header h1 {
+  color: var( --heading-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: var(--highlight-color);
+}
+
+h3 {
+  color: var(--link-color);
+}
+
+h3 span {
+  color: var(--border-color-medium);
+  font-size: 0.6em;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+article {
+  margin-top: 50px;
+}
+
+nav{
+  position: relative;
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: var(--highlight-color);
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+nav #social {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+nav .btn {
+  padding-right: 10px;
+}
+
+nav .btn:last-child {
+  padding-right: 0;
+}
+
+.mode{
+  display: flex;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.grid-list ul li {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .grid-list ul li {
+    flex-wrap: nowrap;
+  }
+}
+
+.grid-list ul li aside {
+  width: 100px;
+  margin: 10px;
+}
+
+.grid-list ul li aside i {
+  font-size: 1.8em;
+}
+
+.grid-list .article__image {
+  margin: 0 10px;
+}
+
+.grid-list .article__title {
+  margin: 10px 0;
+}
+
+.grid-list .article__image img {
+  object-fit: scale-down;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.grid-list .article__date {
+  margin-left: 10px;
+}
+
+footer {
+  margin-bottom: 100px;
+}
+
+input,
+textarea {
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--border-color);
+  color: var(--contet-color);
+  font-size: .9em;
+  line-height: 1.3em;
+}
+
+textarea {
+  min-height: 50px;
+  min-width: 200px;
+  max-width: 900px;
+}
+
+input,
+#send-btn {
+  min-height: 30px;
+}
+
+#send-btn {
+  justify-self: end;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding: 10px 20px;
+  border: 0;
+  background: var(--border-color);
+  color: var(--contet-color);
+}
+
+#credits {
+  margin: 50px;
+  text-align: right;
+  font-size: .8em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  header #profile {
+    background: url("../images/profile@2x.png");
+    background-size: cover;
+  }
+}
