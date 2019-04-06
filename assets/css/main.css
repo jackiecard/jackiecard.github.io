@@ -29,9 +29,15 @@ body .back-btn {
   position: fixed;
   opacity: 0;
   height: 0;
-  top: 20px;
+  top: 15px;
   pointer-events: none;
   transition: opacity 1s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  body .back-btn {
+    top: 20px;
+  }
 }
 
 body.back-effect .back-btn {
@@ -42,7 +48,14 @@ body.back-effect .back-btn {
 
 body .mode-btn {
   margin-left: 0;
+  margin-top: -5px;
   transition: margin-left 1s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  body .mode-btn {
+    margin-top: 0;
+  }
 }
 
 body.back-effect .mode-btn {
