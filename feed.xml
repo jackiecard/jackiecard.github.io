@@ -1,3 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-04-08T11:54:04-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">Welcome to my blog!</title><link href="/talking/to/myself/2019/04/05/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2019-04-05T22:55:20-03:00</published><updated>2019-04-05T22:55:20-03:00</updated><id>/talking/to/myself/2019/04/05/welcome-to-my-blog</id><content type="html" xml:base="/talking/to/myself/2019/04/05/welcome-to-my-blog.html">&lt;p&gt;Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-05-15T22:26:28-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">TechGirl: Manual de Sobrevivência</title><link href="/events/2019/05/15/techgirl-manual.1.html" rel="alternate" type="text/html" title="TechGirl: Manual de Sobrevivência" /><published>2019-05-15T20:55:20-03:00</published><updated>2019-05-15T20:55:20-03:00</updated><id>/events/2019/05/15/techgirl-manual.1</id><content type="html" xml:base="/events/2019/05/15/techgirl-manual.1.html">&lt;blockquote&gt;
+  &lt;p&gt;O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos,realizado pela Valtech com patrocínio da Sitecore.
+Esse artigo é uma referência ao conteúdo ministrado no evento e portanto, voltado a esse público.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Se você chegou aqui, é por que precisa de ajuda. Mas não se preocupe!
+Lembra que a Web é uma bagunça? Ela só tem trinta aninhos, muito jovem mesmo.&lt;/p&gt;
+
+&lt;p&gt;Quem trabalha com a Web ainda não sabe direito com fazer as coisas perfeitas. Algumas pessoas sabem um pouco mais e por isso vendem esse conhecimento para outras empresas, caso da &lt;a href=&quot;valtech.com&quot;&gt;Valtech&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;No Brasil, de uma turma de dez pessoas trabalhando com Tecnologia da Informação, &lt;a href=&quot;https://epocanegocios.globo.com/Economia/noticia/2018/02/apenas-17-dos-programadores-brasileiros-sao-mulheres.html&quot;&gt;só duas são mulheres&lt;/a&gt;. Sabemos do potencial das meninas, por isso não desista!&lt;/p&gt;
+
+&lt;h2 id=&quot;mulheres-na-tecnologia&quot;&gt;Mulheres na Tecnologia&lt;/h2&gt;
+&lt;p&gt;Pode não ser muito divulgado, mas as mulheres tem um papel muito importante na computação. Ada Lovelace, além de muito charmosa, escreveu o primeiro algoritmo para ser processado por uma máquina. É a primeira programadora da história.  O computador que a gente usa hoje em dia não existiria sem o trabalho da Jean Bartik e um grupo de mais &lt;a href=&quot;https://www.ufrgs.br/enigma/2018/08/09/mulheres-da-computacao-as-mulheres-do-eniac/&quot;&gt;cinco mulheres&lt;/a&gt; que operaram o primeiro computador digital da história.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/jh5moEj.png&quot; alt=&quot;Mulheres que são inspiração na área de tecnologia&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A gente conversa com o computador e precisa falar uma linguagem que ele entenda. No começo, isso não era muito fácil. A irmã Mary Kenneth Keller ajudou a criar a linguagem BASIC que inspirou muitas outras linguagens que tornaram mais fácil programar. Grace Hopper desenvolveu a linguagem COBOL que é usada até hoje em empresas de negócios como bancos.&lt;/p&gt;
+
+&lt;p&gt;Lembra a primeira vez que pisamos na Lua? Claro que não, não éramos nascidas! Mas nossos pais e avós vivenciaram aquele momento que foi um marco para a humanidade. Isso aconteceu graças aos esforços de pessoas como a Margaret Hamilton. Ela ajudou a escrever o programa de voo do Apollo 11 que levou os astronautas à Lua.&lt;/p&gt;
+
+&lt;p&gt;Agora que você sabe do potencial que você e outras meninas tem no mundo da tecnologia, vamos começar a codar!&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-a-web&quot;&gt;O que é a Web?&lt;/h2&gt;
+&lt;p&gt;A web é tudo que roda no navegador. O que é o navegador? É um programa que entende a linguagem da web, assim como o computador entende outras linguagens. Aqui, vamos aprender as linguagens HTML e CSS.&lt;/p&gt;
+
+&lt;p&gt;Exemplos de navegadores são o Google Chrome, Safari e Firefox.&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-site&quot;&gt;O que é site?&lt;/h2&gt;
+&lt;p&gt;É o espaço em que as pessoas ou empresas usam para mostrar conteúdo. Um site pode ter uma ou mais páginas web.&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-uma-página-web&quot;&gt;O que é uma página web?&lt;/h2&gt;
+&lt;p&gt;É um documento HTML que o navegador sabe interpretar (entende e mostra) da maneira que a gente vê quando entramos nos nossos sites favoritos, como o YouTube e Netflix. É parecido como fazer um trabalho da escola no Word. Você salva o arquivo .doc que o programa Word consegue ler e editar.&lt;/p&gt;
+
+&lt;h2 id=&quot;html---hypertext-markup-language&quot;&gt;HTML - HyperText Markup Language&lt;/h2&gt;
+&lt;p&gt;É uma linguagem que usamos pra comunicar ao navegador a estrutura da página, com o conteúdo. Para isso, usamos as tags HTML para dizer que tipo de conteúdo queremos na página.&lt;/p&gt;
+
+&lt;h2 id=&quot;tag-html&quot;&gt;Tag HTML&lt;/h2&gt;
+&lt;p&gt;Um título, parágrafo ou imagem, cada coisa tem um tag HTML que podemos usar para melhor nos comunicarmos com o navegador.&lt;/p&gt;
+
+&lt;p&gt;Uma tag consiste em o símbolo &amp;lt; (menor que) e &amp;gt; (menor que). No meio disso está o nome da tag que queremos usar.&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nome-da-tag&amp;gt;&lt;/span&gt; Conteúdo &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nome-da-tag&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Vamos escrever um texto dentro de um parágrafo:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;TechGirl começou e está d+!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Observe que colocamos o conteúdo entre as tags &amp;lt;p&amp;gt;, mas a segunda tem uma barra antes do nome da tag. Essa é a forma em que dizemos ao navegador que estamos fechando aquele parágrafo, formando um bloco. Outros exemplos de blocos:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Título&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Um parágrafo com texto…&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;documento-html&quot;&gt;Documento HTML&lt;/h2&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Título&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    Blá blá blá whiskas sachê…
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Html -&amp;gt; Recebe todas as tags HTML dentro&lt;/p&gt;
+
+&lt;p&gt;Head (cabeça) -&amp;gt; Informações sobre a página&lt;/p&gt;
+
+&lt;p&gt;Title (título) -&amp;gt; título da página&lt;/p&gt;
+
+&lt;p&gt;Body (corpo) -&amp;gt; Mostra o que vai aparecer na página&lt;/p&gt;
+
+&lt;h2 id=&quot;vamos-praticar&quot;&gt;Vamos praticar!&lt;/h2&gt;
+
+&lt;h3 id=&quot;títulos&quot;&gt;Títulos&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Título Super Ultra Grande&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Título Super Grande&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Título Grande&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Título Normal&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;Título Pequeno&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Título Pequenininho&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;parágrafo&quot;&gt;Parágrafo&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Parágrafo blá blá blá&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Parágrafo 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;conteúdo-genérico&quot;&gt;Conteúdo genérico&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Qualquer coisa&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Qualquer coisa 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;lista-não-ordenada&quot;&gt;Lista Não-ordenada&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Suco de laranja
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Pipoca
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Biscoito
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ul (Unordered List) -&amp;gt; List não-ordenada&lt;/p&gt;
+
+&lt;p&gt;li (List Item) -&amp;gt; Item de Lista&lt;/p&gt;
+
+&lt;h3 id=&quot;lista-ordenada&quot;&gt;Lista Ordenada&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ol&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Suco de laranja
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Pipoca
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    Biscoito
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ol&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ul (Ordered List) -&amp;gt; List Ordenada&lt;/p&gt;
+
+&lt;p&gt;li (List Item) -&amp;gt; Item de Lista&lt;/p&gt;
+
+&lt;h3 id=&quot;link&quot;&gt;Link&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“http://jackiecardozo.com/”&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“_blank”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Meu site&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;a -&amp;gt; Âncora&lt;/p&gt;
+
+&lt;p&gt;href -&amp;gt; Referência&lt;/p&gt;
+
+&lt;p&gt;target -&amp;gt; objetivo&lt;/p&gt;
+
+&lt;h3 id=&quot;imagem&quot;&gt;Imagem&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://jackiecardozo.com/assets/images/pixgrid.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;img -&amp;gt; Imagem&lt;/p&gt;
+
+&lt;p&gt;src (Source) -&amp;gt; Caminho da imagem&lt;/p&gt;
+
+&lt;h2 id=&quot;html--css&quot;&gt;HTML &amp;amp; CSS&lt;/h2&gt;
+&lt;p&gt;Sabemos que HTML descreve a estrutura ou o que vai ter na página.
+Para deixar a página mais bonita, usamos uma linguagem de estilo chamada CSS.&lt;/p&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+&lt;p&gt;Queremos dizer ao navegador que um título deve ser roxo:&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;purple&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;color -&amp;gt; cor&lt;/p&gt;
+
+&lt;p&gt;purple -&amp;gt; roxo&lt;/p&gt;
+
+&lt;p&gt;Se queremos que o navegador adicione uma cor ou tamanho diferente em um tag, temos que saber comunicar isso. Para tal, usamos seletores, que nada mais é do que a referência da tag que queremos estilizar.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;seletor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;atributo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;valor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;pixel&quot;&gt;Pixel&lt;/h2&gt;
+&lt;p&gt;É a unidade de medida que usamos para alterar tamanhos de elementos numa página web.&lt;/p&gt;
+
+&lt;h2 id=&quot;criando-um-blog&quot;&gt;Criando um blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/qGaGdP&quot;&gt;Exemplo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;adicionando-emoticons&quot;&gt;Adicionando emoticons&lt;/h2&gt;
+&lt;p&gt;É só copiar e colar no meio do texto:
+&lt;a href=&quot;https://pt.piliapp.com/facebook-symbols/&quot;&gt;Clique aqui para escolher&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tabela-de-cores&quot;&gt;Tabela de Cores&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.quackit.com/css/css_color_codes.cfm&quot;&gt;Visualizar tabela&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos,realizado pela Valtech com patrocínio da Sitecore. Esse artigo é uma referência ao conteúdo ministrado no evento e portanto, voltado a esse público.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/kEuRpZ3.png" /></entry><entry><title type="html">Welcome to my blog!</title><link href="/talking/to/myself/2019/04/05/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2019-04-05T22:55:20-03:00</published><updated>2019-04-05T22:55:20-03:00</updated><id>/talking/to/myself/2019/04/05/welcome-to-my-blog</id><content type="html" xml:base="/talking/to/myself/2019/04/05/welcome-to-my-blog.html">&lt;p&gt;Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.&lt;/p&gt;
 
 &lt;p&gt;Anyway, hello world!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/5xLQPsG.png" /></entry></feed>
