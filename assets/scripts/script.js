@@ -1,5 +1,6 @@
 var mode = document.querySelector('#mode');
 var body = document.querySelector('body');
+var pres = document.querySelectorAll('pre.highlight');
 
 if (typeof Storage === 'undefined') {
   mode.style.display = 'none';
@@ -25,6 +26,22 @@ mode.addEventListener('click', function() {
     newVal = 'dark';
   }
   window.localStorage.setItem('mode', newVal);
+});
+
+Array.prototype.forEach.call(pres, function(item) {
+  item.addEventListener("click", function(e) {
+  var feedback = document.querySelector(".feedback");
+    window.getSelection().selectAllChildren(e.target);
+    document.execCommand("copy");
+      console.log(feedback);
+    if(feedback) {
+      feedback.classList.add("show");
+      feedback.innerText = 'Copied!';
+      setTimeout(function() {
+        feedback.classList.remove("show");
+      }, 2000);
+    }
+  });
 });
 
 var isPostPage = body.classList.contains('back');
