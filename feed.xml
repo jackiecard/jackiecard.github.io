@@ -1,23 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-05-15T23:07:50-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">TechGirl: Manual de Sobrevivência</title><link href="/events/2019/05/15/techgirl-manual.1.html" rel="alternate" type="text/html" title="TechGirl: Manual de Sobrevivência" /><published>2019-05-15T20:55:20-03:00</published><updated>2019-05-15T20:55:20-03:00</updated><id>/events/2019/05/15/techgirl-manual.1</id><content type="html" xml:base="/events/2019/05/15/techgirl-manual.1.html">&lt;blockquote&gt;
-  &lt;p&gt;O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos,realizado pela Valtech com patrocínio da Sitecore.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-05-16T09:20:47-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">TechGirl: Manual de Sobrevivência</title><link href="/events/2019/05/15/techgirl-manual.1.html" rel="alternate" type="text/html" title="TechGirl: Manual de Sobrevivência" /><published>2019-05-15T20:55:20-03:00</published><updated>2019-05-15T20:55:20-03:00</updated><id>/events/2019/05/15/techgirl-manual.1</id><content type="html" xml:base="/events/2019/05/15/techgirl-manual.1.html">&lt;blockquote&gt;
+  &lt;p&gt;O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos, realizado pela Valtech com patrocínio da Sitecore.
 Esse artigo é uma referência ao conteúdo ministrado no evento e portanto, voltado a esse público.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Se você chegou aqui, é por que precisa de ajuda. Mas não se preocupe!
 Lembra que a Web é uma bagunça? Ela só tem trinta aninhos, muito jovem mesmo.&lt;/p&gt;
 
-&lt;p&gt;Quem trabalha com a Web ainda não sabe direito com fazer as coisas perfeitas. Algumas pessoas sabem um pouco mais e por isso vendem esse conhecimento para outras empresas, caso da &lt;a href=&quot;valtech.com&quot;&gt;Valtech&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Quem trabalha com a Web ainda não sabe direito com fazer as coisas perfeitas. Algumas pessoas sabem um pouco mais e por isso vendem esse conhecimento para outras empresas, caso da &lt;a href=&quot;valtech.com&quot; target=&quot;_blank&quot;&gt;Valtech&lt;/a&gt;. 
+Mas nem tudo são negócios! A web pode ser muito divertida, é como um parquinho que você precisa montar os brinquedos. 
+Vamos aprender?&lt;/p&gt;
 
-&lt;p&gt;No Brasil, de uma turma de dez pessoas trabalhando com Tecnologia da Informação, &lt;a href=&quot;https://epocanegocios.globo.com/Economia/noticia/2018/02/apenas-17-dos-programadores-brasileiros-sao-mulheres.html&quot;&gt;só duas são mulheres&lt;/a&gt;. Sabemos do potencial das meninas, por isso não desista!&lt;/p&gt;
+&lt;p&gt;No Brasil, de uma turma de dez pessoas nos cursos de Tecnologia da Informação, &lt;a href=&quot;https://epocanegocios.globo.com/Economia/noticia/2018/02/apenas-17-dos-programadores-brasileiros-sao-mulheres.html&quot; target=&quot;_blank&quot;&gt;só duas são mulheres&lt;/a&gt;. Sabemos do potencial das meninas, por isso não desista!&lt;/p&gt;
 
 &lt;h2 id=&quot;mulheres-na-tecnologia&quot;&gt;Mulheres na Tecnologia&lt;/h2&gt;
-&lt;p&gt;Pode não ser muito divulgado, mas as mulheres tem um papel muito importante na computação. Ada Lovelace, além de muito charmosa, escreveu o primeiro algoritmo para ser processado por uma máquina. É a primeira programadora da história.  O computador que a gente usa hoje em dia não existiria sem o trabalho da Jean Bartik e um grupo de mais &lt;a href=&quot;https://www.ufrgs.br/enigma/2018/08/09/mulheres-da-computacao-as-mulheres-do-eniac/&quot;&gt;cinco mulheres&lt;/a&gt; que operaram o primeiro computador digital da história.&lt;/p&gt;
+&lt;p&gt;Pode não ser muito divulgado, mas as mulheres tem um papel muito importante na computação. &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ada_Lovelace&quot; target=&quot;_blank&quot;&gt;Ada Lovelace&lt;/a&gt;, além de muito charmosa, escreveu o primeiro algoritmo para ser processado por uma máquina. É a primeira programadora da história.  O computador que a gente usa hoje em dia não existiria sem o trabalho da Jean Bartik e um grupo de mais &lt;a href=&quot;https://www.ufrgs.br/enigma/2018/08/09/mulheres-da-computacao-as-mulheres-do-eniac/&quot; target=&quot;_blank&quot;&gt;cinco mulheres&lt;/a&gt; que operaram o primeiro computador digital da história.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/jh5moEj.png&quot; alt=&quot;Mulheres que são inspiração na área de tecnologia&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;A gente conversa com o computador e precisa falar uma linguagem que ele entenda. No começo, isso não era muito fácil. A irmã Mary Kenneth Keller ajudou a criar a linguagem BASIC que inspirou muitas outras linguagens que tornaram mais fácil programar. Grace Hopper desenvolveu a linguagem COBOL que é usada até hoje em empresas de negócios como bancos.&lt;/p&gt;
+&lt;p&gt;A gente conversa com o computador e precisa falar uma linguagem que ele entenda. No começo, isso não era muito fácil. A irmã &lt;a href=&quot;https://pt.wikipedia.org/wiki/Mary_Kenneth_Keller&quot; target=&quot;_blank&quot;&gt;Mary Kenneth Keller&lt;/a&gt; ajudou a criar a linguagem BASIC que inspirou muitas outras linguagens que tornaram mais fácil programar. &lt;a href=&quot;https://pt.wikipedia.org/wiki/Grace_Hopper&quot; target=&quot;_blank&quot;&gt;Grace Hopper&lt;/a&gt; desenvolveu a linguagem COBOL que é usada até hoje em empresas de negócios como bancos.&lt;/p&gt;
 
-&lt;p&gt;Lembra a primeira vez que pisamos na Lua? Claro que não, não éramos nascidas! Mas nossos pais e avós vivenciaram aquele momento que foi um marco para a humanidade. Isso aconteceu graças aos esforços de pessoas como a Margaret Hamilton. Ela ajudou a escrever o programa de voo do Apollo 11 que levou os astronautas à Lua.&lt;/p&gt;
+&lt;p&gt;Lembra a primeira vez que pisamos na Lua? Claro que não, não éramos nascidas! Mas nossos pais e avós vivenciaram aquele momento que foi um marco para a humanidade. Isso aconteceu graças aos esforços de pessoas como a &lt;a href=&quot;https://pt.wikipedia.org/wiki/Margaret_Hamilton_(cientista_da_computa%C3%A7%C3%A3o)&quot; target=&quot;_blank&quot;&gt;Margaret Hamilton&lt;/a&gt;. Ela ajudou a escrever o programa de voo do Apollo 11 que levou os astronautas à Lua.&lt;/p&gt;
 
 &lt;p&gt;Agora que você sabe do potencial que você e outras meninas tem no mundo da tecnologia, vamos começar a codar!&lt;/p&gt;
 
@@ -146,12 +148,35 @@ Lembra que a Web é uma bagunça? Ela só tem trinta aninhos, muito jovem mesmo.
 
 &lt;p&gt;target -&amp;gt; objetivo&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Como fica:&lt;/strong&gt;
+&lt;a href=&quot;http://jackiecardozo.com/&quot; target=&quot;_blank&quot;&gt;Meu site&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;imagem&quot;&gt;Imagem&lt;/h3&gt;
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://jackiecardozo.com/assets/images/pixgrid.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;img -&amp;gt; Imagem&lt;/p&gt;
 
 &lt;p&gt;src (Source) -&amp;gt; Caminho da imagem&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Como fica:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jackiecardozo.com/assets/images/pixgrid.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;Ênfase&quot;&gt;Ênfase&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;strike&amp;gt;&lt;/span&gt;Texto fica riscado&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strike&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Texto fica gordinho&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Texto fica inclinado&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;u&amp;gt;&lt;/span&gt;Texto fica com uma linha embaixo&lt;span class=&quot;nt&quot;&gt;&amp;lt;/u&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Como fica:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;strike&gt;Texto fica riscado&lt;/strike&gt;
+
+&lt;p&gt;&lt;b&gt;Texto fica gordinho&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Texto fica inclinado&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Texto fica com uma linha embaixo&lt;/u&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;html--css&quot;&gt;HTML &amp;amp; CSS&lt;/h2&gt;
 &lt;p&gt;Sabemos que HTML descreve a estrutura ou o que vai ter na página.
@@ -178,15 +203,39 @@ Para deixar a página mais bonita, usamos uma linguagem de estilo chamada CSS.&l
 &lt;h2 id=&quot;pixel&quot;&gt;Pixel&lt;/h2&gt;
 &lt;p&gt;É a unidade de medida que usamos para alterar tamanhos de elementos numa página web.&lt;/p&gt;
 
+&lt;p&gt;Mude a altura (height) e largura (width) do quadrado. Lembre-se de sempre escrever ‘px’ depois do número.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;0&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;jackiecard&quot; data-slug-hash=&quot;BeWgjb&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Pixel&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/jackiecard/pen/BeWgjb/&quot;&gt;
+  Pixel&lt;/a&gt; by Jackie Card (&lt;a href=&quot;https://codepen.io/jackiecard&quot;&gt;@jackiecard&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
 &lt;h2 id=&quot;criando-um-blog&quot;&gt;Criando um blog&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/qGaGdP&quot;&gt;Exemplo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Crie um blog usando o que você praticou aqui.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;465&quot; data-theme-id=&quot;0&quot; data-default-tab=&quot;html,result&quot; data-user=&quot;jackiecard&quot; data-slug-hash=&quot;qGaGdP&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Blog do Salem - Techgirl Event&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/jackiecard/pen/qGaGdP/&quot;&gt;
+  Blog do Salem - Techgirl Event&lt;/a&gt; by Jackie Card (&lt;a href=&quot;https://codepen.io/jackiecard&quot;&gt;@jackiecard&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;adicionando-emoticons&quot;&gt;Adicionando emoticons&lt;/h2&gt;
 &lt;p&gt;É só copiar e colar no meio do texto:
-&lt;a href=&quot;https://pt.piliapp.com/facebook-symbols/&quot;&gt;Clique aqui para escolher&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://pt.piliapp.com/facebook-symbols/&quot; target=&quot;_blank&quot;&gt;Clique aqui para escolher&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;tabela-de-cores&quot;&gt;Tabela de Cores&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.quackit.com/css/css_color_codes.cfm&quot;&gt;Visualizar tabela&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.quackit.com/css/css_color_codes.cfm&quot; target=&quot;_blank&quot;&gt;Visualizar tabela&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exemplos-divertidos&quot;&gt;Exemplos divertidos&lt;/h2&gt;
+&lt;p&gt;Nem tudo na vida é trabalhar para pagar os sachês dos gatos, não é mesmo! Aqui vai alguns exemplos de brincadeiras
+usando HTML &amp;amp; CSS:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/GLvLZE/&quot; target=&quot;_blank&quot;&gt;Totoro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/yryGZg/&quot; target=&quot;_blank&quot;&gt;Pikachu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/EzNqGj&quot; target=&quot;_blank&quot;&gt;Jogo da Abelinha&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepen.io/jackiecard/pen/GaqEojj&quot; target=&quot;_blank&quot;&gt;Super Mario&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;e-o-parquinho&quot;&gt;E o parquinho?&lt;/h2&gt;
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
@@ -601,6 +650,6 @@ Para deixar a página mais bonita, usamos uma linguagem de estilo chamada CSS.&l
  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;chao&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos,realizado pela Valtech com patrocínio da Sitecore. Esse artigo é uma referência ao conteúdo ministrado no evento e portanto, voltado a esse público.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/kEuRpZ3.png" /></entry><entry><title type="html">Welcome to my blog!</title><link href="/talking/to/myself/2019/04/05/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2019-04-05T22:55:20-03:00</published><updated>2019-04-05T22:55:20-03:00</updated><id>/talking/to/myself/2019/04/05/welcome-to-my-blog</id><content type="html" xml:base="/talking/to/myself/2019/04/05/welcome-to-my-blog.html">&lt;p&gt;Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">O TechGirl é um evento de tecnologia voltado para meninas de 10 a 12 anos, realizado pela Valtech com patrocínio da Sitecore. Esse artigo é uma referência ao conteúdo ministrado no evento e portanto, voltado a esse público.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/kEuRpZ3.png" /></entry><entry><title type="html">Welcome to my blog!</title><link href="/talking/to/myself/2019/04/05/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2019-04-05T22:55:20-03:00</published><updated>2019-04-05T22:55:20-03:00</updated><id>/talking/to/myself/2019/04/05/welcome-to-my-blog</id><content type="html" xml:base="/talking/to/myself/2019/04/05/welcome-to-my-blog.html">&lt;p&gt;Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.&lt;/p&gt;
 
 &lt;p&gt;Anyway, hello world!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello worlds always felt a bit sad to me, because it’s the kind of project you won’t ever touch again after you complete. Almost like drinking a can of coke when you’re in need of a sugar rush. You have that initial moment of satisfaction, then feel silly and want to drop the thing in the trash to move on and forget about it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/5xLQPsG.png" /></entry></feed>
