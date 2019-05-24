@@ -2,22 +2,20 @@
 <html><head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Jackie Cardozo</title>
   
   <meta name="description" content="Jackie Cardozo's personal blog">
   <meta name="abstract" content="I'm passionate by user experience and front-end development.">
   <link rel="icon" type="image/png" href="/assets/images/favicon/dot.png" sizes="16x16" />
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet"> -->
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/normalize.css">
-  <link rel="stylesheet" href="/assets/fonts/style.css">
 </head><body class="back">
   <div class="container"><nav>
   <div class="mode">
-    <a href="javascript: history.go(-1)" class="btn back-btn"><i class="icon-arrow-left2"></i></a>
-    <button type="button" id="mode" class="btn mode-btn">
+    <a href="javascript: history.go(-1)" class="btn back-btn" aria-label="Go Back"><i class="icon-arrow-left2"></i></a>
+    <button id="mode" class="btn mode-btn" aria-label="Toggle Dark Mode">
       <i class="icon-brightness-contrast"></i>
     </button>
   </div>
@@ -29,7 +27,7 @@
   </div>
 </nav><header id="summary">
             <div class="highlight">
-                <img src="https://i.imgur.com/5xLQPsG.png" alt="Welcome to my blog!"/>
+                <img src="/assets/images/welcome.png" alt="Welcome to my blog!"/>
             </div>
             <h1>Welcome to my blog!</h1><h2>Apr 5, 2019</h2>
             <i>Or should it be 'hello world'?</i>
@@ -40,25 +38,13 @@
 
 <p>Anyway, hello world!</p>
 
-        </main><footer id="contact" role="contact">
-  <!-- <h2><i class="icon-envelop"></i> Contact</h2>
-          <p>You can email me at <b>contact@jackiecardozo.com</b> or get this shortcut:</p>
-
-          <form id="contact-form" action="mailto:contact@jackiecardozo.com">
-              <label for="subject">@summary</label>
-              <input type="text" title="subject" name="subject" id="subject" value=""/>
-
-              <label for="body">//</label>
-              <textarea title="Comment" name="body" id="body" required></textarea>
-
-              <button type="submit" id="send-btn">Email me!</button>
-          </form> -->
-
+        </main><footer id="contact">
+  <div id="credits">
+    Icons made by
+    <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> licensed by
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </div>
 </footer>
-<div id="credits">Icons made by
-  <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> licensed by
-  <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-</div>
 <script type="text/javascript" src="/assets/scripts/script.js"></script>
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -71,6 +57,5 @@
   ga('create', 'UA-71472311-1', 'auto');
   ga('send', 'pageview');
 </script></div>
-    <div class="feedback"></div>
   </body>
 </html>
