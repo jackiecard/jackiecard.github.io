@@ -30,16 +30,15 @@ mode.addEventListener('click', function() {
 
 Array.prototype.forEach.call(pres, function(item) {
   item.addEventListener("click", function(e) {
-  var feedback = document.querySelector(".feedback");
+  var feedback = document.querySelector("#feedback");
     window.getSelection().selectAllChildren(e.target);
     document.execCommand("copy");
-      console.log(feedback);
     if(feedback) {
       feedback.classList.add("show");
       feedback.innerText = 'Copied!';
       setTimeout(function() {
         feedback.classList.remove("show");
-      }, 2000);
+      }, 2500);
     }
   });
 });
