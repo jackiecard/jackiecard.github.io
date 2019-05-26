@@ -29,20 +29,24 @@ mode.addEventListener('click', function() {
 });
 
 Array.prototype.forEach.call(pres, function(item) {
-  item.addEventListener("click", function(e) {
-  var feedback = document.querySelector("#feedback");
+  item.addEventListener('click', function(e) {
+  var feedback = document.querySelector('#feedback');
     window.getSelection().selectAllChildren(e.target);
-    document.execCommand("copy");
+    document.execCommand('copy');
     if(feedback) {
-      feedback.classList.add("show");
+      feedback.classList.add('show');
       feedback.innerText = 'Copied!';
       setTimeout(function() {
-        feedback.classList.remove("show");
+        feedback.classList.remove('show');
       }, 2500);
     }
   });
 });
 
 var isPostPage = body.classList.contains('back');
+var backBtn = document.querySelector(".back-btn");
 
-if (isPostPage) setTimeout(() => {body.classList.add('back-effect');}, 1000);
+if (isPostPage) setTimeout(() => {
+  body.classList.add('back-effect');
+  backBtn.setAttribute('tabindex', '0');
+}, 1000);
