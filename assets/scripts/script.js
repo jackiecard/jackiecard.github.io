@@ -1,6 +1,7 @@
 var mode = document.querySelector('#mode');
 var body = document.querySelector('body');
 var pres = document.querySelectorAll('pre.highlight');
+var avatar = document.querySelector('.avatar');
 
 if (typeof Storage === 'undefined') {
   mode.style.display = 'none';
@@ -46,7 +47,7 @@ Array.prototype.forEach.call(pres, function(item) {
 var isPostPage = body.classList.contains('back');
 var backBtn = document.querySelector(".back-btn");
 
-if (isPostPage) setTimeout(() => {
+if (isPostPage) setTimeout(function() {
   body.classList.add('back-effect');
   backBtn.setAttribute('tabindex', '0');
 }, 1000);
