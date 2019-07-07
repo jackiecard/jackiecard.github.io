@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-07-06T20:06:34-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">Lessons in learning web development</title><link href="/css/2019/07/06/lessons-in-learning-web-development.html" rel="alternate" type="text/html" title="Lessons in learning web development" /><published>2019-07-06T19:25:20-03:00</published><updated>2019-07-06T19:25:20-03:00</updated><id>/css/2019/07/06/lessons-in-learning-web-development</id><content type="html" xml:base="/css/2019/07/06/lessons-in-learning-web-development.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-07-07T16:43:36-03:00</updated><id>/feed.xml</id><title type="html">Big Cheeks</title><subtitle>I like to build stuff and make them look appealing and interactive.</subtitle><entry><title type="html">Lessons in learning web development</title><link href="/lessons/2019/07/06/lessons-in-learning-web-development.html" rel="alternate" type="text/html" title="Lessons in learning web development" /><published>2019-07-06T19:25:20-03:00</published><updated>2019-07-06T19:25:20-03:00</updated><id>/lessons/2019/07/06/lessons-in-learning-web-development</id><content type="html" xml:base="/lessons/2019/07/06/lessons-in-learning-web-development.html">&lt;blockquote&gt;
   &lt;p&gt;These tips I wrote to my fellow coleagues learning the way into web development. I hope it’s either useful or entertaining.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -50,17 +50,6 @@ The giving div does not align&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Eventually, you can get yourself into playing the full stack part - the one that holds the hammer and the bow. You shall have fun trying to make your superiors understand that you cannot throw the arrow while striking the hammer. Superiors usually think both things can be done and mastered at the same time.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“I’m sorry baby&lt;br /&gt;
-But now I’ve made up my mind&lt;br /&gt;
-I’m sorry baby&lt;br /&gt;
-Do as I tell you, don’t cry&lt;br /&gt;
-I’m gonna run now&lt;br /&gt;
-To reach the glory of my mind&lt;br /&gt;
-Baby goodbye”&lt;/em&gt;&lt;br /&gt;
-— Mutantes&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;p&gt;Your intelectual work makes the company you work for really rich. But make no mistakes: you’re replaceble to them. Companies take care of their business, you should take care of yours too. Make it grow. Make it show. Don’t be afraid leave when the time comes. The experience and friends will remain.&lt;/p&gt;</content><author><name></name></author><summary type="html">These tips I wrote to my fellow coleagues learning the way into web development. I hope it’s either useful or entertaining.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/cat-computer.jpeg" /></entry><entry><title type="html">Creating pixel art with CSS Grid</title><link href="/css/grid/2019/06/20/creating-pixel-art-using-grid-layout.html" rel="alternate" type="text/html" title="Creating pixel art with CSS Grid " /><published>2019-06-20T22:20:20-03:00</published><updated>2019-06-20T22:20:20-03:00</updated><id>/css/grid/2019/06/20/creating-pixel-art-using-grid-layout</id><content type="html" xml:base="/css/grid/2019/06/20/creating-pixel-art-using-grid-layout.html">&lt;p&gt;Would you imagine successful games and design concepts becoming so popular because of a limitation? That’s what pixel art tries to achieve - the feeling of nostalgia brought by the memories of glorious old games. That’s because old consoles initially had limited CPU to handle graphics. To overcome that, game designers had to get the most out of each pixel. Small colored squares strategically placed with purpose and daring you to use your imagination.&lt;/p&gt;
 
