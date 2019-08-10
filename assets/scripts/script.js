@@ -45,9 +45,20 @@ Array.prototype.forEach.call(pres, function(item) {
 });
 
 var isPostPage = body.classList.contains('back');
-var backBtn = document.querySelector(".back-btn");
+var backBtn = document.querySelector('.back-btn');
 
 if (isPostPage) setTimeout(function() {
   body.classList.add('back-effect');
   backBtn.setAttribute('tabindex', '0');
 }, 1000);
+
+document.body.addEventListener('keyup', function(e) {
+  document.body.classList.add('focus-visible');
+  if(e.keyCode == 8) {
+    window.location = '/';
+  }
+});
+
+document.body.addEventListener("mousedown", function() {
+  document.body.classList.remove("focus-visible");
+});
