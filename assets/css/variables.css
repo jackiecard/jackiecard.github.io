@@ -1,0 +1,23 @@
+:root {
+  /* 
+   *    Colors 
+   */
+  --black: #000;
+  --white: #fff;
+  --green: #77AF40;
+  --grey: #5b5b5b;
+  --purple-darkest: #222034;
+  --pink-dark: #780b88;
+  --purple: #7F47DD;
+  --purple-mid: #8D51F6;
+  --purple-light: #AC8CF4;
+  --purple-dark: #5E4C8E;
+  --blue-dark: #46467C;
+  --blue-darkest: #2B2B51;
+
+  /* 
+   *    Fonts
+   */
+   --font-headings: Inconsolata, 'Helvetica Neue', Roboto, Arial, sans-serif;
+   --font-family: 'Helvetica Neue', Roboto, Arial, sans-serif;
+}
