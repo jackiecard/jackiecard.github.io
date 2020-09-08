@@ -11,8 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0 40px;
+    padding: 40px 0;
     color: var(--grey);
+  }
+
+  @media screen and (min-width: 769px) {
+    .footer {
+      padding: 80px 0 40px;
+    }
   }
 
   .heart,

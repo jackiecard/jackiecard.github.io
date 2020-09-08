@@ -140,9 +140,15 @@
 <style>
 .search {
   position: relative;
-  top: 0;
+  top: -5px;
   right: 10px;
   height: 100%; 
+}
+
+@media screen and (min-width: 768px) {
+  .search {
+    top: 0;
+  }
 }
 
 .search__control {
@@ -175,6 +181,7 @@
   height: 35px;
   border: 2px solid #000;
   padding: 10px;
+  border-radius: 0;
 }
 
 .search input::placeholder {
