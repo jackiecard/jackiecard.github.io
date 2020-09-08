@@ -54,7 +54,7 @@ export default {
     '~/plugins/directives/clickout/clickout',
     '~/plugins/components/vue-clamp',
     '~/plugins/directives/vue-lazyload',
-    '~/plugins/ga'
+    { src: '~plugins/ga.js', mode: 'client'}
   ],
   /*
   ** Auto import components
