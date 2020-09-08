@@ -42,7 +42,7 @@
       const articles = await $content('articles', params.slug)
         .where({ draft: false })
         .only(['title', 'slug', 'category', 'description', 'createdAt', 'lang'])
-        .sortBy('createdAt', 'desc')
+        .sortBy('createdAt', 'asc')
         .fetch()
 
       return {
