@@ -139,7 +139,8 @@ body {
   border: 0;
 }
 
-.post__title:hover {
+.post__title:hover,
+.post__title:focus {
   text-decoration: underline;
   border: 0;
 }
