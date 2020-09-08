@@ -22,7 +22,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'I\'m Jackie! I\'m a developer and I have been making websites every since I was 12 years old. I love building interactive things but I\'m not very good at updating them. ' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -32,7 +32,6 @@ export default {
   ** Global CSS
   */
   css: [
-    './assets/fonts/fonts.css',
     './assets/css/normalize.css',
     './assets/css/variables.css'
   ],
