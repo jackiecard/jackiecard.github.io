@@ -73,6 +73,42 @@ main {
   max-width: 100%;
 }
 
+.image-wrapper {
+ text-align: center;
+
+  --sm-width: 100%;
+  --lg-width: 100%;
+}
+
+.image-wrapper img {
+  width: var(--sm-width);
+}
+
+@media screen and (min-width: 769px) {
+  .image-wrapper img {
+    width: var(--lg-width);
+  }
+}
+
+.columns {
+  --sm-columns: 1;
+  --lg-columns: 2;
+  --columns-gap: 0;
+  --columns-align: 0;
+
+  display: grid;
+  grid-gap: var(--columns-gap);
+  justify-content: var(--columns-align);
+  grid-template-columns: repeat(var(--sm-columns), auto);
+}
+
+@media screen and (min-width: 769px) {
+  .columns {
+    grid-template-columns: repeat(var(--lg-columns), auto);
+  }
+}
+
+
 button {
   background: transparent;
   border: 0;

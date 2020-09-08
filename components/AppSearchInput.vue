@@ -1,7 +1,7 @@
 <template>
   <div class="search" v-clickout="close">
     <focus-trap v-model="open">
-      <div class="search__control">
+      <form class="search__control" role="search">
         <label for="search-field" class="sr-only">
           Search Articles
         </label>
@@ -51,7 +51,7 @@
             </NuxtLink>
           </li>
         </ul>
-      </div>
+      </form>
     </focus-trap>
   </div>
 </template>
