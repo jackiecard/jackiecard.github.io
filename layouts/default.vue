@@ -1,8 +1,8 @@
 <template>
   <div>
-    <header>
+    <header role="banner">
       <Navigation/>
-      <div class="container" role="banner">
+      <div class="container">
         <Logo/>
       </div>
     </header>
@@ -106,6 +106,17 @@ main {
   .columns {
     grid-template-columns: repeat(var(--lg-columns), auto);
   }
+}
+
+table {
+  width: 100%;
+  border: 1px solid #0000002e;
+  border-radius: 3px;
+}
+
+thead {
+  background: #0000001a;
+  padding: 5px;
 }
 
 

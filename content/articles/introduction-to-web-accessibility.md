@@ -23,21 +23,22 @@ When we think about web accessibility, the screen reader is probably the first t
   <img src="/assistive-tech.svg" alt="A screen reader reading the content of webpage in a cellphone"/>
 </div>
 
-It's a common misconception that screen readers are used by the totally blind only. Other folks that use it can have low vision or cognitive disabilities - people that have difficulty to process textual information and like to have those texts read be an <abbr title="Assistive Technology">AC</abbr>.
+It's a common misconception that screen readers are used by the totally blind only. Other folks that use it can have low vision or cognitive disabilities - people that have difficulty to process textual information and like to have those texts read to them.
 
 ### But how does this work?
 
-The screen reader goes through your page structure, systematically reading each block. For instance, the page layout of this blog consists in a header with a navigation, banner and search inside. Then the main content with the heading levels and finally, the footer. It does a good overview of the layout of the page because I have used the right HTML5 tags and roles.
+The screen reader goes through your page structure, systematically reading each block as demanded. The user can perceive the layout of the page by navigation through **regions**. For example, the layout of this blog consists in a header with a navigation and search inside, followed by the main content with the heading levels and finally, the footer. 
 
-Regions vs Landmarks
+It does a good overview of the layout of the page because I have used the right HTML5 tags and roles. These regions like the *navigation* and *search* are called **landmarks** - places where the user expects to find a certain type of content in there, like the *menu links* and the *search functionality* respectively.
 
-This parts of the page like the header, navigation and footer are called landmarks - places where we arrange a certain type of content.
+<div class="image-wrapper" style="--lg-width: 50%">
+  <img src="/page-layout.png" alt="Page Layout" />
+</div>
 
 | Landmark 	| 	Tag		 		|Description						|
-| -----------	| ----------- 	 		|---------
-| Header 		| `<header>` 			|
+| -----------	| ----------- 	 		|---------							|
+| Header 		| `<header>` 			|page introduction or navigation		|
 | Navigation 	| `<nav>` 				|group of links for content navigation 	|
-| Banner 		| `<div role="banner">` 	| logo, identity of the site 			|
 | Search 		| `<div role="search">` 	|search functionality				|
 | Main 		| `<main>` 			|primary content of the page			|
-| Footer 		| `<footer>` 			|
+| Footer 		| `<footer>` 			|authorship, related links, copyright date |

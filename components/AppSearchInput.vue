@@ -145,12 +145,6 @@
   height: 100%; 
 }
 
-@media screen and (min-width: 768px) {
-  .search {
-    top: 0;
-  }
-}
-
 .search__control {
   display: flex;
   align-items: center;
