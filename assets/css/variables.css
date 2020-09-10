@@ -14,10 +14,25 @@
   --purple-dark: #5E4C8E;
   --blue-dark: #46467C;
   --blue-darkest: #2B2B51;
+  --highlight: rgba(205, 220, 57, 0.36078);
+
 
   /* 
    *    Fonts
    */
    --font-headings: 'Helvetica Neue', Roboto, Arial, sans-serif;
    --font-family: 'Helvetica Neue', Roboto, Arial, sans-serif;
+}
+
+.note {
+  background: var( --highlight);
+  padding: 2px 5px;
+  width: auto;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+
+.highlight {
+  background: var( --highlight);
 }

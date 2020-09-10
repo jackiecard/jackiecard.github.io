@@ -13,4 +13,4 @@ Finally, I really need to graduate. It's possible that you'll find some subjects
 
 ## About the cat
 
-The cat name is Salem. He's not really sleeping, he is just ignoring you successfully.
+The cat name is Salem. He's not really sleeping, he is just ignoring you.
