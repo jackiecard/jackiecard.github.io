@@ -13,7 +13,7 @@
     "@nuxt/content": "^1.8.1",
     "focus-trap": "^6.0.1",
     "focus-trap-vue": "^0.0.6",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.14.0",
     "push-dir": "^0.4.1",
     "remark-emoji": "^2.1.0",
